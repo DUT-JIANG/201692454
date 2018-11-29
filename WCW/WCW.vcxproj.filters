@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LIB">
+      <UniqueIdentifier>{212c0a37-f5ff-48b5-a001-175b5ce8ea84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\dsr-uu-0.2\debug.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-ack.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-dev.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-io.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-module.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-opt.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-pkt.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-rerr.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-rrep.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-rreq.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-rtc-simple.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\dsr-srt.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\endian.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\link-cache.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\maint-buf.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\neigh.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\ns-agent.cc">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dsr-uu-0.2\send-buf.c">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dsr-uu-0.2\debug.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-ack.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-dev.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-io.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-opt.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-pkt.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-rerr.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-rrep.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-rreq.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-rtc.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\dsr-srt.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\link-cache.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\list.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\maint-buf.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\neigh.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\ns-agent.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\send-buf.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\tbl.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsr-uu-0.2\timer.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
