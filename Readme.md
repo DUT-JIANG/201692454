@@ -8,7 +8,6 @@ Ubuntu 使用Github
 6. vim config
 7. url=ssh://用户名@github.com/derekerdmann/lunch_call.git
 
-推送步骤 http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
-常见命令 https://git-scm.com/book/zh/v2/%E9%99%84%E5%BD%95-C%3A-Git-%E5%91%BD%E4%BB%A4-%E5%88%86%E6%94%AF%E4%B8%8E%E5%90%88%E5%B9%B6
+推代码：https://blog.csdn.net/qq_15037231/article/details/74224357
 	·
 
