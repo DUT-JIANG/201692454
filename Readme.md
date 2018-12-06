@@ -9,4 +9,3 @@ Ubuntu 使用Github
 7. url=ssh://用户名@github.com:derekerdmann/lunch_call.git
 
 推代码：https://blog.csdn.net/qq_15037231/article/details/74224357
-sfdsaf
