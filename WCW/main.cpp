@@ -1,5 +1,5 @@
 #include<iostream>
 using namespace std;
 int main() {
-	cout << "123" << endl;
+	cout << "12nj.j3" << endl;
 }
