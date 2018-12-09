@@ -9,7 +9,7 @@
 #include <linux/fs.h>
 #include <linux/init.h>
 #include <linux/spinlock.h>
-#include <linux/config.h>
+#include <linux/autoconfig.h>
 #include <linux/kernel.h>
 #include <linux/proc_fs.h>
 #include <linux/module.h>

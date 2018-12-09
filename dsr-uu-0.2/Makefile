@@ -4,7 +4,7 @@ SRC=dsr-module.c dsr-pkt.c dsr-dev.c dsr-io.c dsr-opt.c dsr-rreq.c dsr-rrep.c ds
 NS_SRC=dsr-pkt.c dsr-io.c dsr-opt.c dsr-rreq.c dsr-rrep.c dsr-rerr.c dsr-ack.c dsr-srt.c send-buf.c neigh.c maint-buf.c link-cache.c
 
 NS_SRC_CPP=ns-agent.cc
-
+KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 DEFS=-DDEBUG 
 
 MODNAME=dsr

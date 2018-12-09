@@ -1,0 +1,1004 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR=ar$/;"	m
+AR_FLAGS	Makefile	/^AR_FLAGS=rc$/;"	m
+BINARY	dsr.h	/^	BINARY,$/;"	e	enum:confval_type
+BUFLEN	dsr-srt.h	68;"	d
+BUF_LEN	ns-agent.cc	95;"	d	file:
+BroadCastJitter	dsr.h	/^	BroadCastJitter,$/;"	e	enum:confval
+CC	Makefile	/^CC=gcc$/;"	m
+CMD_MAX_LEN	dsr-module.c	195;"	d	file:
+COMMAND	dsr.h	/^	COMMAND,$/;"	e	enum:confval_type
+CONFIG_PROC_NAME	dsr-module.c	58;"	d	file:
+CONFVAL_MAX	dsr.h	/^	CONFVAL_MAX,$/;"	e	enum:confval
+CONFVAL_TYPE_MAX	dsr.h	/^	CONFVAL_TYPE_MAX,$/;"	e	enum:confval_type
+CXX	Makefile	/^CXX=g++$/;"	m
+ConfVal	dsr.h	149;"	d
+ConfVal	ns-agent.h	31;"	d
+ConfValToUsecs	dsr.h	150;"	d
+ConfValToUsecs	ns-agent.h	32;"	d
+DBG_LOG_BUF	debug.c	38;"	d	file:
+DBG_LOG_BUF_LEN	debug.c	28;"	d	file:
+DBG_LOG_BUF_MASK	debug.c	37;"	d	file:
+DBG_TO_STDOUT	ns-agent.cc	114;"	d	file:
+DEBUG	debug.h	31;"	d
+DEBUG	debug.h	33;"	d
+DEBUG	debug.h	36;"	d
+DEBUG	dsr-rtc-simple.c	19;"	d	file:
+DEBUG	link-cache.c	11;"	d	file:
+DEBUG	link-cache.c	25;"	d	file:
+DEBUG_BUFLEN	debug.h	41;"	d
+DEBUG_PROC	debug.h	32;"	d
+DEFAULT_TAILROOM	dsr-pkt.h	22;"	d
+DEFS	Makefile	/^DEFS=-DDEBUG $/;"	m
+DELIVER	dsr-dev.h	17;"	d
+DELIVER	ns-agent.h	62;"	d
+DSRUU	ns-agent.cc	/^DSRUU::DSRUU() : Agent(PT_DSR), $/;"	f	class:DSRUU
+DSRUU	ns-agent.h	/^class DSRUU:public Tap, public Agent {$/;"	c
+DSRUUClass	ns-agent.cc	/^	DSRUUClass() : TclClass("Agent\/DSRUU") {}$/;"	f	class:DSRUUClass
+DSRUUClass	ns-agent.cc	/^static class DSRUUClass : public TclClass {$/;"	c	file:
+DSRUUHeaderClass	ns-agent.cc	/^	DSRUUHeaderClass():PacketHeaderClass("PacketHeader\/DSRUU",$/;"	f	class:DSRUUHeaderClass
+DSRUUHeaderClass	ns-agent.cc	/^static class DSRUUHeaderClass:public PacketHeaderClass {$/;"	c	file:
+DSRUUTimer	timer.h	/^	DSRUUTimer(DSRUU * a):TimerHandler() {$/;"	f	class:DSRUUTimer
+DSRUUTimer	timer.h	/^	} DSRUUTimer(DSRUU * a, char *name):TimerHandler() {$/;"	f	class:DSRUUTimer
+DSRUUTimer	timer.h	/^class DSRUUTimer:public TimerHandler {$/;"	c
+DSRUUTimer	timer.h	/^typedef struct timer_list DSRUUTimer;$/;"	t	typeref:struct:timer_list
+DSR_ACK_HDR_LEN	dsr-ack.h	30;"	d
+DSR_ACK_OPT_LEN	dsr-ack.h	31;"	d
+DSR_ACK_REQ_HDR_LEN	dsr-ack.h	28;"	d
+DSR_ACK_REQ_OPT_LEN	dsr-ack.h	29;"	d
+DSR_BROADCAST	dsr.h	35;"	d
+DSR_FIXED_HDR_LEN	dsr-opt.h	68;"	d
+DSR_GET_NEXT_OPT	dsr-opt.h	89;"	d
+DSR_GET_OPT	dsr-opt.h	88;"	d
+DSR_LAST_OPT	dsr-opt.h	90;"	d
+DSR_MIN	neigh.c	26;"	d	file:
+DSR_NO_NEXT_HDR_TYPE	dsr-opt.h	62;"	d
+DSR_NO_NEXT_HDR_TYPE	dsr-opt.h	64;"	d
+DSR_OPTS_MAX_SIZE	dsr.h	42;"	d
+DSR_OPT_ACK	dsr-opt.h	80;"	d
+DSR_OPT_ACK_REQ	dsr-opt.h	84;"	d
+DSR_OPT_FLOWID	dsr-opt.h	83;"	d
+DSR_OPT_HDR_LEN	dsr-opt.h	70;"	d
+DSR_OPT_PAD1	dsr-opt.h	85;"	d
+DSR_OPT_PAD1_LEN	dsr-opt.h	71;"	d
+DSR_OPT_PADN	dsr-opt.h	75;"	d
+DSR_OPT_PREV_HOP	dsr-opt.h	79;"	d
+DSR_OPT_RERR	dsr-opt.h	78;"	d
+DSR_OPT_RREP	dsr-opt.h	76;"	d
+DSR_OPT_RREQ	dsr-opt.h	77;"	d
+DSR_OPT_SRT	dsr-opt.h	81;"	d
+DSR_OPT_TIMEOUT	dsr-opt.h	82;"	d
+DSR_PKT_ACTION_LAST	dsr-pkt.h	100;"	d
+DSR_PKT_DELIVER	dsr-pkt.h	99;"	d
+DSR_PKT_DROP	dsr-pkt.h	97;"	d
+DSR_PKT_ERROR	dsr-pkt.h	98;"	d
+DSR_PKT_FORWARD	dsr-pkt.h	95;"	d
+DSR_PKT_FORWARD_RREQ	dsr-pkt.h	96;"	d
+DSR_PKT_MIN_LEN	dsr-opt.h	72;"	d
+DSR_PKT_NONE	dsr-pkt.h	89;"	d
+DSR_PKT_SEND_ACK	dsr-pkt.h	94;"	d
+DSR_PKT_SEND_BUFFERED	dsr-pkt.h	93;"	d
+DSR_PKT_SEND_ICMP	dsr-pkt.h	91;"	d
+DSR_PKT_SEND_RREP	dsr-pkt.h	92;"	d
+DSR_PKT_SRT_REMOVE	dsr-pkt.h	90;"	d
+DSR_RANGESET	neigh.c	37;"	d	file:
+DSR_READ_LOCK	tbl.h	46;"	d
+DSR_READ_LOCK	tbl.h	65;"	d
+DSR_READ_UNLOCK	tbl.h	47;"	d
+DSR_READ_UNLOCK	tbl.h	66;"	d
+DSR_RERR_HDR_LEN	dsr-rerr.h	37;"	d
+DSR_RERR_OPT_LEN	dsr-rerr.h	38;"	d
+DSR_REXMTMAX	neigh.c	27;"	d	file:
+DSR_REXMTVAL	neigh.c	47;"	d	file:
+DSR_RREP_ADDRS_LEN	dsr-rrep.h	35;"	d
+DSR_RREP_HDR_LEN	dsr-rrep.h	31;"	d
+DSR_RREP_OPT_LEN	dsr-rrep.h	32;"	d
+DSR_RREQ_ADDRS_LEN	dsr-rreq.h	30;"	d
+DSR_RREQ_HDR_LEN	dsr-rreq.h	27;"	d
+DSR_RREQ_OPT_LEN	dsr-rreq.h	28;"	d
+DSR_RREQ_TOT_LEN	dsr-rreq.h	29;"	d
+DSR_RTC_PROC_NAME	dsr-rtc.h	15;"	d
+DSR_RTTDFLT	neigh.c	28;"	d	file:
+DSR_SPIN_LOCK	dsr.h	136;"	d
+DSR_SPIN_LOCK	dsr.h	143;"	d
+DSR_SPIN_UNLOCK	dsr.h	137;"	d
+DSR_SPIN_UNLOCK	dsr.h	144;"	d
+DSR_SRTTBASE	neigh.c	24;"	d	file:
+DSR_SRTTDFLT	neigh.c	25;"	d	file:
+DSR_SRT_HDR_LEN	dsr-srt.h	50;"	d
+DSR_SRT_OPT_LEN	dsr-srt.h	51;"	d
+DSR_WRITE_LOCK	tbl.h	44;"	d
+DSR_WRITE_LOCK	tbl.h	63;"	d
+DSR_WRITE_UNLOCK	tbl.h	45;"	d
+DSR_WRITE_UNLOCK	tbl.h	64;"	d
+ETH_ALEN	ns-agent.h	29;"	d
+EXTRA_NS_DEFS	Makefile	/^EXTRA_NS_DEFS=-DDEBUG$/;"	m
+FLOW_STATE_NOT_SUPPORTED	dsr-rerr.h	45;"	d
+FREE	dsr.h	139;"	d
+FREE	ns-agent.h	60;"	d
+FREE	tbl.h	50;"	d
+FREE	tbl.h	68;"	d
+FlushLinkCache	dsr.h	/^	FlushLinkCache,$/;"	e	enum:confval
+GRAT_REPLY_HOLDOFF	dsr-rrep.c	33;"	d	file:
+GRAT_RREP_TBL_MAX_LEN	dsr-rrep.c	32;"	d	file:
+GRAT_RREP_TBL_PROC_NAME	dsr-rrep.c	36;"	d	file:
+GratReplyHoldOff	dsr.h	/^	GratReplyHoldOff,$/;"	e	enum:confval
+HDR_DSRUU	ns-agent.h	54;"	d
+INIT_LIST	list.h	16;"	d
+INIT_LIST_ELM	list.h	20;"	d
+INIT_TBL	tbl.h	38;"	d
+INIT_TBL	tbl.h	58;"	d
+IPDEFTTL	ns-agent.h	70;"	d
+IPPROTO_DSR	dsr.h	37;"	d
+IPPROTO_DSR	dsr.h	39;"	d
+IP_HDR_LEN	dsr.h	41;"	d
+K	neigh.c	45;"	d	file:
+KCFLAGS	Makefile	/^KCFLAGS=-Wall -fno-strict-aliasing -O2 $(KDEFS) $(KINC)$/;"	m
+KDEFS	Makefile	/^KDEFS=-D__KERNEL__ -DMODULE $(DEFS) -DEXPORT_SYMTAB -DCONFIG_MODVERSIONS -DMODVERSIONS -include $(KERNEL_INC)\/linux\/modversions.h $/;"	m
+KERNEL	Makefile	/^KERNEL=$(shell uname -r)$/;"	m
+KERNEL_DIR	Makefile	/^KERNEL_DIR=\/lib\/modules\/$(KERNEL)\/build$/;"	m
+KERNEL_INC	Makefile	/^KERNEL_INC=$(KERNEL_DIR)\/include$/;"	m
+KERNEL_PARAM_FL_HWPARAM	moduleparam.h	/^	KERNEL_PARAM_FL_HWPARAM	= (1 << 1),$/;"	e	enum:__anon2
+KERNEL_PARAM_FL_UNSAFE	moduleparam.h	/^	KERNEL_PARAM_FL_UNSAFE	= (1 << 0),$/;"	e	enum:__anon2
+KERNEL_PARAM_OPS_FL_NOARG	moduleparam.h	/^	KERNEL_PARAM_OPS_FL_NOARG = (1 << 0)$/;"	e	enum:__anon1
+KINC	Makefile	/^KINC=-nostdinc $(shell $(CC) -print-search-dirs | sed -ne 's\/install: \\(.*\\)\/-I \\1include\/gp') -I$(KERNEL_INC)$/;"	m
+KOBJS	Makefile	/^KOBJS := $(SRC:%.c=%.o)$/;"	m
+LC	link-cache.c	/^static struct lc_graph LC;$/;"	v	typeref:struct:lc_graph	file:
+LC	ns-agent.h	/^	struct lc_graph LC;$/;"	m	class:DSRUU	typeref:struct:DSRUU::lc_graph
+LC_COST_INF	link-cache.c	45;"	d	file:
+LC_GARBAGE_COLLECT_INTERVAL	link-cache.c	49;"	d	file:
+LC_HOPS_INF	link-cache.c	46;"	d	file:
+LC_LINKS_MAX	link-cache.c	38;"	d	file:
+LC_NODES_MAX	link-cache.c	37;"	d	file:
+LC_PROC_NAME	link-cache.c	33;"	d	file:
+LIST	list.h	14;"	d
+LIST_INIT_HEAD	list.h	12;"	d
+LIST_INIT_HEAD	tbl.h	32;"	d
+LIST_NULL	list.h	9;"	d
+LIST_SUCCESS	list.h	10;"	d
+MAINT_BUF_MAX_LEN	dsr.h	85;"	d
+MAINT_BUF_PROC_FS_NAME	maint-buf.c	30;"	d	file:
+MALLOC	dsr.h	138;"	d
+MALLOC	ns-agent.h	59;"	d
+MALLOC	tbl.h	49;"	d
+MALLOC	tbl.h	67;"	d
+MAX	neigh.c	44;"	d	file:
+MAXTTL	dsr-rreq.c	40;"	d	file:
+MAX_ACK_OPTS	dsr-pkt.h	20;"	d
+MAX_CMD	ns-agent.cc	/^	MAX_CMD$/;"	e	enum:__anon4	file:
+MAX_MACKILL	dsr-module.c	60;"	d	file:
+MAX_PARAM_PREFIX_LEN	moduleparam.h	18;"	d
+MAX_RERR_OPTS	dsr-pkt.h	19;"	d
+MAX_RREP_OPTS	dsr-pkt.h	18;"	d
+MAX_SALVAGE_COUNT	dsr.h	/^	MAX_SALVAGE_COUNT,$/;"	e	enum:confval
+MICROSECONDS	dsr.h	/^	MICROSECONDS,$/;"	e	enum:confval_type
+MILLISECONDS	dsr.h	/^	MILLISECONDS,$/;"	e	enum:confval_type
+MIPSDEFS	Makefile	/^MIPSDEFS=-mips2 -fno-pic -mno-abicalls -mlong-calls -G0 -msoft-float $(KDEFS)$/;"	m
+MIPS_CC	Makefile	/^MIPS_CC=mipsel-linux-gcc$/;"	m
+MIPS_LD	Makefile	/^MIPS_LD=mipsel-linux-ld$/;"	m
+MODNAME	Makefile	/^MODNAME=dsr$/;"	m
+MODPREFIX	Makefile	/^MODPREFIX=ko$/;"	m
+MODPREFIX	Makefile	/^MODPREFIX=o$/;"	m
+MODULE_PARAM_PREFIX	moduleparam.h	12;"	d
+MODULE_PARAM_PREFIX	moduleparam.h	14;"	d
+MODULE_PARM_DESC	moduleparam.h	35;"	d
+MaintHoldoffTime	dsr.h	/^	MaintHoldoffTime,$/;"	e	enum:confval
+MaxMaintRexmt	dsr.h	/^	MaxMaintRexmt,$/;"	e	enum:confval
+MaxRequestPeriod	dsr.h	/^	MaxRequestPeriod,$/;"	e	enum:confval
+MaxRequestRexmt	dsr.h	/^	MaxRequestRexmt,$/;"	e	enum:confval
+NANOSECONDS	dsr.h	/^	NANOSECONDS,$/;"	e	enum:confval_type
+NEIGH_TBL_GARBAGE_COLLECT_TIMEOUT	neigh.c	34;"	d	file:
+NEIGH_TBL_MAX_LEN	neigh.c	21;"	d	file:
+NEIGH_TBL_PROC_NAME	neigh.c	53;"	d	file:
+NEIGH_TBL_TIMEOUT	neigh.c	35;"	d	file:
+NODE_UNREACHABLE	dsr-rerr.h	44;"	d
+NO_DECLS	ns-agent.h	121;"	d
+NO_DECLS	ns-agent.h	38;"	d
+NO_DECLS	ns-agent.h	51;"	d
+NO_GLOBALS	ns-agent.h	120;"	d
+NO_GLOBALS	ns-agent.h	162;"	d
+NSCLASS	dsr.h	140;"	d
+NSCLASS	ns-agent.h	30;"	d
+NS_CFLAGS	Makefile	/^NS_CFLAGS=$(OPTS) $(CPP_OPTS) $(DEBUG) $(NS_DEFS) $(EXTRA_NS_DEFS)$/;"	m
+NS_DEFS	Makefile	/^NS_DEFS= # DON'T CHANGE (overridden by NS Makefile)$/;"	m
+NS_INC	Makefile	/^NS_INC= # DON'T CHANGE (overridden by NS Makefile)$/;"	m
+NS_SRC	Makefile	/^NS_SRC=dsr-pkt.c dsr-io.c dsr-opt.c dsr-rreq.c dsr-rrep.c dsr-rerr.c dsr-ack.c dsr-srt.c send-buf.c neigh.c maint-buf.c link-cache.c$/;"	m
+NS_SRC_CPP	Makefile	/^NS_SRC_CPP=ns-agent.cc$/;"	m
+NS_TARGET	Makefile	/^NS_TARGET=dsr-uu.o$/;"	m
+NonpropRequestTimeout	dsr.h	/^	NonpropRequestTimeout,$/;"	e	enum:confval
+OBJS_NS	Makefile	/^OBJS_NS=$(NS_SRC:%.c=%-ns.o)$/;"	m
+OBJS_NS_CPP	Makefile	/^OBJS_NS_CPP=$(NS_SRC_CPP:%.cc=%-ns.o)$/;"	m
+OPTION_NOT_SUPPORTED	dsr-rerr.h	46;"	d
+PATCHLEVEL	Makefile	/^PATCHLEVEL=$(shell grep ^PATCHLEVEL $(KERNEL_DIR)\/Makefile | cut -d' ' -f 3)$/;"	m
+PKT_PASSIVE_ACK	dsr-pkt.h	85;"	d
+PKT_PROMISC_RECV	dsr-pkt.h	83;"	d
+PKT_REQUEST_ACK	dsr-pkt.h	84;"	d
+PKT_XMIT_JITTER	dsr-pkt.h	86;"	d
+PR_SLOWHZ	neigh.c	29;"	d	file:
+PassiveAckTimeout	dsr.h	/^	PassiveAckTimeout,$/;"	e	enum:confval
+PrintDebug	dsr.h	/^	PrintDebug,$/;"	e	enum:confval
+PromiscOperation	dsr.h	/^	PromiscOperation,$/;"	e	enum:confval
+QUANTA	dsr.h	/^	QUANTA,$/;"	e	enum:confval_type
+RREQ_TBL_MAX_LEN	dsr.h	86;"	d
+RREQ_TBL_PROC_NAME	dsr-rreq.c	33;"	d	file:
+RREQ_TLB_MAX_ID	dsr.h	88;"	d
+RTC_MAX_LEN	dsr-rtc-simple.c	25;"	d	file:
+RTC_SRC	Makefile	/^RTC_SRC=link-cache.c$/;"	m
+RTC_TIMER	dsr-rtc-simple.c	49;"	d	file:
+RTC_TRG	Makefile	/^RTC_TRG=linkcache$/;"	m
+RTTVAR_SHIFT	neigh.c	32;"	d	file:
+RTT_SHIFT	neigh.c	31;"	d	file:
+RequestPeriod	dsr.h	/^	RequestPeriod,$/;"	e	enum:confval
+RequestTableIds	dsr.h	/^	RequestTableIds,$/;"	e	enum:confval
+RequestTableSize	dsr.h	/^	RequestTableSize,$/;"	e	enum:confval
+RexmtBufferSize	dsr.h	/^	RexmtBufferSize,$/;"	e	enum:confval
+RouteCacheTimeout	dsr.h	/^	RouteCacheTimeout,$/;"	e	enum:confval
+SECONDS	dsr.h	/^	SECONDS,$/;"	e	enum:confval_type
+SEND_BUF_DROP	send-buf.h	15;"	d
+SEND_BUF_MAX_LEN	dsr.h	87;"	d
+SEND_BUF_PROC_FS_NAME	send-buf.c	32;"	d	file:
+SEND_BUF_SEND	send-buf.h	16;"	d
+SET_ADDR	ns-agent.cc	/^	SET_ADDR,$/;"	e	enum:__anon4	file:
+SET_DMUX	ns-agent.cc	/^	SET_DMUX,$/;"	e	enum:__anon4	file:
+SET_LL	ns-agent.cc	/^	SET_LL,$/;"	e	enum:__anon4	file:
+SET_MAC_ADDR	ns-agent.cc	/^	SET_MAC_ADDR,$/;"	e	enum:__anon4	file:
+SET_NODE	ns-agent.cc	/^	SET_NODE,$/;"	e	enum:__anon4	file:
+SET_TAP	ns-agent.cc	/^	SET_TAP,$/;"	e	enum:__anon4	file:
+SET_TRACE_TARGET	ns-agent.cc	/^	SET_TRACE_TARGET,$/;"	e	enum:__anon4	file:
+SRC	Makefile	/^SRC=dsr-module.c dsr-pkt.c dsr-dev.c dsr-io.c dsr-opt.c dsr-rreq.c dsr-rrep.c dsr-rerr.c dsr-ack.c dsr-srt.c send-buf.c debug.c neigh.c maint-buf.c$/;"	m
+SRT_BIDIR	dsr-srt.h	54;"	d
+SRT_FIRST_HOP_EXT	dsr-srt.h	46;"	d
+SRT_LAST_HOP_EXT	dsr-srt.h	47;"	d
+START_DSR	ns-agent.cc	/^	START_DSR,$/;"	e	enum:__anon4	file:
+STATE_IDLE	dsr-rreq.c	43;"	d	file:
+STATE_IN_ROUTE_DISC	dsr-rreq.c	44;"	d	file:
+SUBLEVEL	Makefile	/^SUBLEVEL=$(shell grep ^SUBLEVEL $(KERNEL_DIR)\/Makefile | cut -d' ' -f 3)$/;"	m
+SendBufferSize	dsr.h	/^	SendBufferSize,$/;"	e	enum:confval
+SendBufferTimeout	dsr.h	/^	SendBufferTimeout,$/;"	e	enum:confval
+TBL	tbl.h	72;"	d
+TBL_EMPTY	tbl.h	25;"	d
+TBL_FIRST	tbl.h	24;"	d
+TBL_FULL	tbl.h	26;"	d
+TBL_INIT	tbl.h	34;"	d
+TBL_INIT	tbl.h	55;"	d
+TTL_START	dsr-rreq.c	348;"	d	file:
+TryPassiveAcks	dsr.h	/^	TryPassiveAcks,$/;"	e	enum:confval
+UINT_MAX	link-cache.c	42;"	d	file:
+UseNetworkLayerAck	dsr.h	/^	UseNetworkLayerAck,$/;"	e	enum:confval
+VERSION	Makefile	/^VERSION=$(shell if [ ! -d $(KERNEL_DIR) ]; then echo "No linux source found!!! Check your setup..."; exit; fi; grep ^VERSION $(KERNEL_DIR)\/Makefile | cut -d' ' -f 3)$/;"	m
+XMIT	dsr.h	141;"	d
+XMIT	ns-agent.h	61;"	d
+_DEBUG_H	debug.h	9;"	d
+_DEBUG_H	ns-agent.h	159;"	d
+_DSR_ACK_H	dsr-ack.h	9;"	d
+_DSR_ACK_H	ns-agent.h	141;"	d
+_DSR_DEV_H	dsr-dev.h	9;"	d
+_DSR_H	dsr.h	9;"	d
+_DSR_H	ns-agent.h	123;"	d
+_DSR_IO_H	dsr-io.h	9;"	d
+_DSR_IO_H	ns-agent.h	129;"	d
+_DSR_NS_AGENT	ns-agent.h	9;"	d
+_DSR_OPT_H	dsr-opt.h	9;"	d
+_DSR_OPT_H	ns-agent.h	126;"	d
+_DSR_PKT_H	dsr-pkt.h	9;"	d
+_DSR_RERR_H	dsr-rerr.h	9;"	d
+_DSR_RERR_H	ns-agent.h	138;"	d
+_DSR_RREP_H	dsr-rrep.h	9;"	d
+_DSR_RREP_H	ns-agent.h	135;"	d
+_DSR_RREQ_H	dsr-rreq.h	9;"	d
+_DSR_RREQ_H	ns-agent.h	132;"	d
+_DSR_RTC_H	dsr-rtc.h	9;"	d
+_DSR_SRT_H	dsr-srt.h	9;"	d
+_DSR_SRT_H	ns-agent.h	144;"	d
+_LINK_CACHE_H	link-cache.h	9;"	d
+_LINK_CACHE_H	ns-agent.h	156;"	d
+_LINUX_MODULE_PARAMS_H	moduleparam.h	3;"	d
+_LIST_H	list.h	2;"	d
+_MAINT_BUF_H	maint-buf.h	9;"	d
+_MAINT_BUF_H	ns-agent.h	153;"	d
+_NEIGH_H	neigh.h	9;"	d
+_NEIGH_H	ns-agent.h	150;"	d
+_SEND_BUF_H	ns-agent.h	147;"	d
+_SEND_BUF_H	send-buf.h	9;"	d
+_TBL_H	tbl.h	9;"	d
+_TIMER_H	timer.h	9;"	d
+__MODULE_INFO	moduleparam.h	21;"	d
+__MODULE_INFO	moduleparam.h	27;"	d
+__MODULE_PARM_TYPE	moduleparam.h	30;"	d
+__dbg_log_buf	debug.c	/^static char __dbg_log_buf[DBG_LOG_BUF_LEN];$/;"	v	file:
+__dijkstra	link-cache.c	/^void NSCLASS __dijkstra(struct in_addr src)$/;"	f
+__dijkstra_find_lowest_cost_node	link-cache.c	/^static inline struct lc_node *__dijkstra_find_lowest_cost_node(struct tbl *t)$/;"	f	file:
+__dijkstra_init_single_source	link-cache.c	/^__dijkstra_init_single_source(struct tbl *t, struct in_addr src)$/;"	f	file:
+__dsr_rtc_add	dsr-rtc-simple.c	/^static inline int __dsr_rtc_add(struct rtc_entry *e)$/;"	f	file:
+__dsr_rtc_del	dsr-rtc-simple.c	/^static inline int __dsr_rtc_del(struct rtc_entry *e)$/;"	f	file:
+__dsr_rtc_find	dsr-rtc-simple.c	/^static inline struct rtc_entry *__dsr_rtc_find(__u32 daddr)$/;"	f	file:
+__dsr_rtc_flush	dsr-rtc-simple.c	/^static inline void __dsr_rtc_flush(void)$/;"	f	file:
+__dsr_rtc_set_next_timeout	dsr-rtc-simple.c	/^static inline void __dsr_rtc_set_next_timeout(void)$/;"	f	file:
+__exit	ns-agent.h	64;"	d
+__init	ns-agent.h	63;"	d
+__lc_link_del	link-cache.c	/^static inline void __lc_link_del(struct lc_graph *lc, struct lc_link *link)$/;"	f	file:
+__lc_link_find	link-cache.c	/^static inline struct lc_link *__lc_link_find(struct tbl *t, struct in_addr src,$/;"	f	file:
+__lc_link_tbl_add	link-cache.c	/^static int __lc_link_tbl_add(struct tbl *t, struct lc_node *src,$/;"	f	file:
+__lc_move	link-cache.c	/^static void __lc_move(struct tbl *to, struct tbl *from)$/;"	f	file:
+__level_param_cb	moduleparam.h	185;"	d
+__module_param_call	moduleparam.h	221;"	d
+__moduleparam_const	moduleparam.h	214;"	d
+__moduleparam_const	moduleparam.h	216;"	d
+__param_check	moduleparam.h	338;"	d
+__rreq_tbl_add	dsr-rreq.c	/^struct rreq_tbl_entry *NSCLASS __rreq_tbl_add(struct in_addr node_addr)$/;"	f
+__rreq_tbl_entry_create	dsr-rreq.c	/^struct rreq_tbl_entry *NSCLASS __rreq_tbl_entry_create(struct in_addr node_addr)$/;"	f
+__tbl_add	tbl.h	/^static inline int __tbl_add(struct tbl *t, list_t * l, criteria_t crit)$/;"	f
+__tbl_add_tail	tbl.h	/^static inline int __tbl_add_tail(struct tbl *t, list_t * l)$/;"	f
+__tbl_del	tbl.h	/^static inline int __tbl_del(struct tbl *t, list_t * l)$/;"	f
+__tbl_detach	tbl.h	/^static inline void *__tbl_detach(struct tbl *t, list_t * l)$/;"	f
+__tbl_do_for_each	tbl.h	/^static inline int __tbl_do_for_each(struct tbl *t, void *data, do_t func)$/;"	f
+__tbl_find	tbl.h	/^static inline void *__tbl_find(struct tbl *t, void *id, criteria_t crit)$/;"	f
+__tbl_find_do	tbl.h	/^static inline int __tbl_find_do(struct tbl *t, void *data, do_t func)$/;"	f
+a_	timer.h	/^	DSRUU *a_;$/;"	m	class:DSRUUTimer
+access	dsr-opt.h	/^	inline static dsr_opt_hdr *access(const Packet * p) {$/;"	f	struct:dsr_opt_hdr
+ack_opt	dsr-pkt.h	/^	struct dsr_ack_opt *ack_opt[MAX_ACK_OPTS];$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::dsr_ack_opt
+ack_req_opt	dsr-pkt.h	/^	struct dsr_ack_req_opt *ack_req_opt;$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::dsr_ack_req_opt
+ack_req_sent	maint-buf.c	/^	int ack_req_sent;$/;"	m	struct:maint_entry	file:
+ack_timer	maint-buf.c	/^static DSRUUTimer ack_timer;$/;"	v	file:
+ack_timer	ns-agent.h	/^	DSRUUTimer ack_timer;$/;"	m	class:DSRUU
+add_timer	ns-agent.h	/^	void add_timer(DSRUUTimer * t) {$/;"	f	class:DSRUU
+addr	link-cache.c	/^	struct in_addr addr;$/;"	m	struct:lc_node	typeref:struct:lc_node::in_addr	file:
+addr	neigh.c	/^	struct in_addr *addr;$/;"	m	struct:neighbor_query	typeref:struct:neighbor_query::in_addr	file:
+addr	neigh.c	/^	struct in_addr addr;$/;"	m	struct:neighbor	typeref:struct:neighbor::in_addr	file:
+addrs	dsr-rrep.h	/^	u_int32_t addrs[0];$/;"	m	struct:dsr_rrep_opt
+addrs	dsr-rreq.h	/^	u_int32_t addrs[0];$/;"	m	struct:dsr_rreq_opt
+addrs	dsr-srt.h	/^	struct in_addr addrs[0];	\/* Intermediate nodes *\/$/;"	m	struct:dsr_srt	typeref:struct:dsr_srt::in_addr
+addrs	dsr-srt.h	/^	u_int32_t addrs[0];$/;"	m	struct:dsr_srt_opt
+arch_param_cb	moduleparam.h	194;"	d
+arg	moduleparam.h	/^		void *arg;$/;"	m	union:kernel_param::__anon3
+arpset	ns-agent.cc	/^int DSRUU::arpset(struct in_addr addr, unsigned int mac_addr)$/;"	f	class:DSRUU
+arr	moduleparam.h	/^		const struct kparam_array *arr;$/;"	m	union:kernel_param::__anon3	typeref:struct:kernel_param::__anon3::kparam_array
+assert	ns-2.28/ns-lib.tcl	/^proc assert args {$/;"	p
+bcaddr	dsr.h	/^	struct in_addr bcaddr;$/;"	m	struct:dsr_node	typeref:struct:dsr_node::in_addr
+bigend	endian.c	/^int bigend(void)$/;"	f
+bw_parse	ns-2.28/ns-lib.tcl	/^proc bw_parse { bspec } {$/;"	p
+cheapest_node	link-cache.c	/^struct cheapest_node {$/;"	s	file:
+class_DSRUU	ns-agent.cc	/^} class_DSRUU;$/;"	v	typeref:class:DSRUUClass	file:
+class_rtProtoDSRUU_hdr	ns-agent.cc	/^} class_rtProtoDSRUU_hdr;$/;"	v	typeref:class:DSRUUHeaderClass	file:
+clean-dirs	Makefile	/^clean-dirs := .tmp_versions$/;"	m
+clean-files	Makefile	/^clean-files := *~$/;"	m
+cmd	ns-agent.cc	/^char *cmd[MAX_CMD] = {$/;"	v
+command	ns-agent.cc	/^int DSRUU::command(int argc, const char* const* argv)$/;"	f	class:DSRUU
+confval	dsr.h	/^enum confval {$/;"	g
+confval_names	dsr-module.c	/^static char *confval_names[CONFVAL_TYPE_MAX] = { $/;"	v	file:
+confval_to_usecs	dsr.h	/^static inline usecs_t confval_to_usecs(enum confval cv)$/;"	f
+confval_type	dsr.h	/^enum confval_type {$/;"	g
+confvals	dsr.h	/^	unsigned int confvals[CONFVAL_MAX];$/;"	m	struct:dsr_node
+confvals	ns-agent.cc	/^int DSRUU::confvals[CONFVAL_MAX];$/;"	m	class:DSRUU	file:
+confvals	ns-agent.h	/^	static int confvals[CONFVAL_MAX];$/;"	m	class:DSRUU
+confvals_def	dsr.h	/^} confvals_def[CONFVAL_MAX] = {$/;"	v	typeref:struct:__anon11
+core_param	moduleparam.h	262;"	d
+core_param_cb	moduleparam.h	188;"	d
+core_param_unsafe	moduleparam.h	269;"	d
+cost	link-cache.c	/^	unsigned int cost;	\/* Cost estimate from source when running Dijkstra *\/$/;"	m	struct:lc_node	file:
+cost	link-cache.c	/^	unsigned int cost;$/;"	m	struct:lc_link	file:
+create	ns-agent.cc	/^	TclObject* create(int, const char*const*) {$/;"	f	class:DSRUUClass
+crit_ack_req_sent	maint-buf.c	/^static inline int crit_ack_req_sent(void *pos, void *data)$/;"	f	file:
+crit_addr	dsr-rreq.c	/^static inline int crit_addr(void *pos, void *data)$/;"	f	file:
+crit_addr	link-cache.c	/^static inline int crit_addr(void *pos, void *addr)$/;"	f	file:
+crit_addr	maint-buf.c	/^static inline int crit_addr(void *pos, void *data)$/;"	f	file:
+crit_addr	neigh.c	/^static inline int crit_addr(void *pos, void *query)$/;"	f	file:
+crit_addr	send-buf.c	/^static inline int crit_addr(void *pos, void *addr)$/;"	f	file:
+crit_addr_del	maint-buf.c	/^static inline int crit_addr_del(void *pos, void *data)$/;"	f	file:
+crit_addr_id_del	maint-buf.c	/^static inline int crit_addr_id_del(void *pos, void *data)$/;"	f	file:
+crit_addr_id_inc	neigh.c	/^static inline int crit_addr_id_inc(void *pos, void *addr)$/;"	f	file:
+crit_duplicate	dsr-rreq.c	/^static inline int crit_duplicate(void *pos, void *data)$/;"	f	file:
+crit_expire	link-cache.c	/^static inline int crit_expire(void *pos, void *data)$/;"	f	file:
+crit_expires	maint-buf.c	/^static inline int crit_expires(void *pos, void *data)$/;"	f	file:
+crit_garbage	send-buf.c	/^static inline int crit_garbage(void *pos, void *n)$/;"	f	file:
+crit_link_query	link-cache.c	/^static inline int crit_link_query(void *pos, void *query)$/;"	f	file:
+crit_none	tbl.h	/^static inline int crit_none(void *foo, void *bar)$/;"	f
+crit_query	dsr-rrep.c	/^static inline int crit_query(void *pos, void *query)$/;"	f	file:
+crit_time	dsr-rrep.c	/^static inline int crit_time(void *pos, void *time)$/;"	f	file:
+criteria_t	tbl.h	/^typedef int (*criteria_t) (void *elm, void *data);$/;"	t
+data	timer.h	/^	unsigned long data;$/;"	m	class:DSRUUTimer
+dbg_cleanup	debug.c	/^void __exit dbg_cleanup(void)$/;"	f
+dbg_init	debug.c	/^int __init dbg_init(void)$/;"	f
+dbg_log_buf	debug.c	/^static char *dbg_log_buf = __dbg_log_buf;$/;"	v	file:
+dbg_log_buf_len	debug.c	/^static int dbg_log_buf_len = DBG_LOG_BUF_LEN;$/;"	v	file:
+dbg_log_end	debug.c	/^static unsigned long dbg_log_end;	\/* Index into dbg_log_buf: most-recently-written-char + 1 *\/$/;"	v	file:
+dbg_log_open	debug.c	/^static int dbg_log_open(struct inode *inode, struct file *file)$/;"	f	file:
+dbg_log_poll	debug.c	/^static unsigned int dbg_log_poll(struct file *file, poll_table * wait)$/;"	f	file:
+dbg_log_read	debug.c	/^dbg_log_read(struct file *file, char *buf, size_t count, loff_t * ppos)$/;"	f	file:
+dbg_log_release	debug.c	/^static int dbg_log_release(struct inode *inode, struct file *file)$/;"	f	file:
+dbg_log_start	debug.c	/^static unsigned long dbg_log_start;	\/* Index into dbg_log_buf: next char to be read by sysdbg_log() *\/$/;"	v	file:
+dbg_log_wait	debug.c	/^DECLARE_WAIT_QUEUE_HEAD(dbg_log_wait);$/;"	v
+dbg_logbuf_lock	debug.c	/^static spinlock_t dbg_logbuf_lock = SPIN_LOCK_UNLOCKED;$/;"	v	file:
+debug	ns-2.28/ns-lib.tcl	/^	proc debug args {$/;"	p
+del_timer	ns-agent.h	/^	    void del_timer(DSRUUTimer * t) {$/;"	f	class:DSRUU
+del_timer_sync	ns-agent.h	58;"	d
+delay_parse	ns-2.28/ns-lib.tcl	/^proc delay_parse { spec } {$/;"	p
+destroy_params	moduleparam.h	/^static inline void destroy_params(const struct kernel_param *params,$/;"	f
+device_param_cb	moduleparam.h	203;"	d
+dh	dsr-pkt.h	/^	} dh;$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::__anon9
+do_dbglog	debug.c	/^int do_dbglog(int type, char *buf, int len)$/;"	f
+do_init	link-cache.c	/^static inline int do_init(void *pos, void *addr)$/;"	f	file:
+do_lowest_cost	link-cache.c	/^static inline int do_lowest_cost(void *pos, void *data)$/;"	f	file:
+do_mackill	dsr-module.c	/^int do_mackill(char *mac)$/;"	f
+do_relax	link-cache.c	/^static inline int do_relax(void *pos, void *node)$/;"	f	file:
+do_t	tbl.h	/^typedef int (*do_t) (void *elm, void *data);$/;"	t
+dp	maint-buf.c	/^	struct dsr_pkt *dp;$/;"	m	struct:maint_entry	typeref:struct:maint_entry::dsr_pkt	file:
+dp	send-buf.c	/^	struct dsr_pkt *dp;$/;"	m	struct:send_buf_entry	typeref:struct:send_buf_entry::dsr_pkt	file:
+dsr_ack_opt	dsr-ack.h	/^struct dsr_ack_opt {$/;"	s
+dsr_ack_opt_add	dsr-ack.c	/^struct dsr_ack_opt *dsr_ack_opt_add(char *buf, int len, struct in_addr src,$/;"	f
+dsr_ack_opt_recv	dsr-ack.c	/^int NSCLASS dsr_ack_opt_recv(struct dsr_ack_opt *ack)$/;"	f
+dsr_ack_req_opt	dsr-ack.h	/^struct dsr_ack_req_opt {$/;"	s
+dsr_ack_req_opt_add	dsr-ack.c	/^dsr_ack_req_opt_add(struct dsr_pkt *dp, unsigned short id)$/;"	f
+dsr_ack_req_opt_create	dsr-ack.c	/^static struct dsr_ack_req_opt *dsr_ack_req_opt_create(char *buf, int len,$/;"	f	file:
+dsr_ack_req_opt_recv	dsr-ack.c	/^int NSCLASS dsr_ack_req_opt_recv(struct dsr_pkt *dp, struct dsr_ack_req_opt *ack_req_opt)$/;"	f
+dsr_ack_req_send	dsr-ack.c	/^int NSCLASS dsr_ack_req_send(struct in_addr neigh_addr, unsigned short id)$/;"	f
+dsr_ack_send	dsr-ack.c	/^int NSCLASS dsr_ack_send(struct in_addr dst, unsigned short id)$/;"	f
+dsr_build_ip	dsr-opt.c	/^struct iphdr *dsr_build_ip(struct dsr_pkt *dp, struct in_addr src,$/;"	f
+dsr_build_ip	ns-agent.cc	/^struct hdr_ip *DSRUU::dsr_build_ip(struct dsr_pkt *dp, struct in_addr src, $/;"	f	class:DSRUU
+dsr_config_proc_read	dsr-module.c	/^static int dsr_config_proc_read(char *buffer, char **start, $/;"	f	file:
+dsr_config_proc_write	dsr-module.c	/^static int dsr_config_proc_write(struct file *file, const char *buffer,$/;"	f	file:
+dsr_dev	dsr-dev.c	/^static struct net_device *dsr_dev;$/;"	v	typeref:struct:net_device	file:
+dsr_dev_accept_fastpath	dsr-dev.c	/^static int dsr_dev_accept_fastpath(struct net_device *dev, $/;"	f	file:
+dsr_dev_cleanup	dsr-dev.c	/^void __exit dsr_dev_cleanup(void)$/;"	f
+dsr_dev_deliver	dsr-dev.c	/^int dsr_dev_deliver(struct dsr_pkt *dp)$/;"	f
+dsr_dev_get_stats	dsr-dev.c	/^static struct net_device_stats *dsr_dev_get_stats(struct net_device *dev)$/;"	f	file:
+dsr_dev_inetaddr_event	dsr-dev.c	/^static int dsr_dev_inetaddr_event(struct notifier_block *this,$/;"	f	file:
+dsr_dev_init	dsr-dev.c	/^int dsr_dev_init(char *ifname)$/;"	f
+dsr_dev_llrecv	dsr-dev.c	/^static int dsr_dev_llrecv(struct sk_buff *skb,$/;"	f	file:
+dsr_dev_netdev_event	dsr-dev.c	/^static int dsr_dev_netdev_event(struct notifier_block *this,$/;"	f	file:
+dsr_dev_open	dsr-dev.c	/^static int dsr_dev_open(struct net_device *dev)$/;"	f	file:
+dsr_dev_set_address	dsr-dev.c	/^static int dsr_dev_set_address(struct net_device *dev, void *p)$/;"	f	file:
+dsr_dev_setup	dsr-dev.c	/^static int __init dsr_dev_setup(struct net_device *dev)$/;"	f	file:
+dsr_dev_start_xmit	dsr-dev.c	/^static int dsr_dev_start_xmit(struct sk_buff *skb, struct net_device *dev)$/;"	f	file:
+dsr_dev_stop	dsr-dev.c	/^static int dsr_dev_stop(struct net_device *dev)$/;"	f	file:
+dsr_dev_uninit	dsr-dev.c	/^static void dsr_dev_uninit(struct net_device *dev)$/;"	f	file:
+dsr_dev_xmit	dsr-dev.c	/^int dsr_dev_xmit(struct dsr_pkt *dp)$/;"	f
+dsr_emit_log_char	debug.c	/^static void dsr_emit_log_char(char c)$/;"	f	file:
+dsr_hw_header_create	dsr-dev.c	/^int dsr_hw_header_create(struct dsr_pkt *dp, struct sk_buff *skb)$/;"	f
+dsr_inet_prot	dsr-module.c	/^static struct inet_protocol dsr_inet_prot = {$/;"	v	typeref:struct:inet_protocol	file:
+dsr_ip_forward_hook	dsr-module.c	/^static struct nf_hook_ops dsr_ip_forward_hook = {$/;"	v	typeref:struct:nf_hook_ops	file:
+dsr_ip_forward_recv	dsr-module.c	/^static unsigned int dsr_ip_forward_recv(unsigned int hooknum,$/;"	f	file:
+dsr_ip_recv	dsr-module.c	/^int dsr_ip_recv(struct sk_buff *skb)$/;"	f
+dsr_ip_recv_err	dsr-module.c	/^static void dsr_ip_recv_err(struct sk_buff *skb, u32 info)$/;"	f	file:
+dsr_module_cleanup	dsr-module.c	/^module_exit(dsr_module_cleanup);$/;"	v
+dsr_module_cleanup	dsr-module.c	/^static void __exit dsr_module_cleanup(void)$/;"	f	file:
+dsr_module_init	dsr-module.c	/^module_init(dsr_module_init);$/;"	v
+dsr_module_init	dsr-module.c	/^static int __init dsr_module_init(void)$/;"	f	file:
+dsr_node	dsr-dev.c	/^static struct dsr_node *dsr_node;$/;"	v	typeref:struct:dsr_node	file:
+dsr_node	dsr-dev.c	/^struct dsr_node *dsr_node;$/;"	v	typeref:struct:dsr_node
+dsr_node	dsr.h	/^struct dsr_node {$/;"	s
+dsr_node_init	dsr.h	/^static inline void dsr_node_init(struct dsr_node *dn, char *ifname)$/;"	f
+dsr_node_lock	dsr.h	/^static inline void dsr_node_lock(struct dsr_node *dnode)$/;"	f
+dsr_node_unlock	dsr.h	/^static inline void dsr_node_unlock(struct dsr_node *dnode)$/;"	f
+dsr_opt	dsr-opt.h	/^struct dsr_opt {$/;"	s
+dsr_opt_find_opt	dsr-opt.c	/^struct dsr_opt *dsr_opt_find_opt(struct dsr_pkt *dp, int type)$/;"	f
+dsr_opt_hdr	dsr-opt.h	/^struct dsr_opt_hdr {$/;"	s
+dsr_opt_hdr_add	dsr-opt.c	/^struct dsr_opt_hdr *dsr_opt_hdr_add(char *buf, unsigned int len, $/;"	f
+dsr_opt_parse	dsr-opt.c	/^int dsr_opt_parse(struct dsr_pkt *dp)$/;"	f
+dsr_opt_recv	dsr-opt.c	/^int NSCLASS dsr_opt_recv(struct dsr_pkt *dp)$/;"	f
+dsr_opt_remove	dsr-opt.c	/^int NSCLASS dsr_opt_remove(struct dsr_pkt *dp)$/;"	f
+dsr_packet_type	dsr-dev.c	/^static struct packet_type dsr_packet_type = {$/;"	v	typeref:struct:packet_type	file:
+dsr_pad1_opt	dsr-opt.h	/^struct dsr_pad1_opt {$/;"	s
+dsr_pkt	dsr-pkt.h	/^struct dsr_pkt {$/;"	s
+dsr_pkt_alloc	dsr-pkt.c	/^struct dsr_pkt *dsr_pkt_alloc(Packet * p)$/;"	f
+dsr_pkt_alloc	dsr-pkt.c	/^struct dsr_pkt *dsr_pkt_alloc(struct sk_buff *skb)$/;"	f
+dsr_pkt_alloc_opts	dsr-pkt.c	/^char *dsr_pkt_alloc_opts(struct dsr_pkt *dp, int len)$/;"	f
+dsr_pkt_alloc_opts_expand	dsr-pkt.c	/^char *dsr_pkt_alloc_opts_expand(struct dsr_pkt *dp, int len)$/;"	f
+dsr_pkt_free	dsr-pkt.c	/^void dsr_pkt_free(struct dsr_pkt *dp)$/;"	f
+dsr_pkt_free_opts	dsr-pkt.c	/^int dsr_pkt_free_opts(struct dsr_pkt *dp)$/;"	f
+dsr_pkt_opts_len	dsr-pkt.h	/^static inline int dsr_pkt_opts_len(struct dsr_pkt *dp)$/;"	f
+dsr_pkt_tailroom	dsr-pkt.h	/^static inline int dsr_pkt_tailroom(struct dsr_pkt *dp)$/;"	f
+dsr_pre_routing_hook	dsr-module.c	/^static struct nf_hook_ops dsr_pre_routing_hook = {$/;"	v	typeref:struct:nf_hook_ops	file:
+dsr_pre_routing_recv	dsr-module.c	/^static unsigned int dsr_pre_routing_recv(unsigned int hooknum,$/;"	f	file:
+dsr_recv	dsr-io.c	/^int NSCLASS dsr_recv(struct dsr_pkt *dp)$/;"	f
+dsr_rerr_opt	dsr-rerr.h	/^struct dsr_rerr_opt {$/;"	s
+dsr_rerr_opt_add	dsr-rerr.c	/^static struct dsr_rerr_opt *dsr_rerr_opt_add(char *buf, int len,$/;"	f	file:
+dsr_rerr_opt_recv	dsr-rerr.c	/^int NSCLASS dsr_rerr_opt_recv(struct dsr_pkt *dp, struct dsr_rerr_opt *rerr_opt)$/;"	f
+dsr_rerr_send	dsr-rerr.c	/^int NSCLASS dsr_rerr_send(struct dsr_pkt *dp_trigg, struct in_addr unr_addr)$/;"	f
+dsr_rrep_add_srt	dsr-rrep.c	/^dsr_rrep_add_srt(struct dsr_rrep_opt *rrep_opt, struct dsr_srt *srt)$/;"	f	file:
+dsr_rrep_opt	dsr-rrep.h	/^struct dsr_rrep_opt {$/;"	s
+dsr_rrep_opt_add	dsr-rrep.c	/^static struct dsr_rrep_opt *dsr_rrep_opt_add(char *buf, int len,$/;"	f	file:
+dsr_rrep_opt_recv	dsr-rrep.c	/^int NSCLASS dsr_rrep_opt_recv(struct dsr_pkt *dp, struct dsr_rrep_opt *rrep_opt)$/;"	f
+dsr_rrep_send	dsr-rrep.c	/^int NSCLASS dsr_rrep_send(struct dsr_srt *srt, struct dsr_srt *srt_to_me)$/;"	f
+dsr_rreq_duplicate	dsr-rreq.c	/^int NSCLASS dsr_rreq_duplicate(struct in_addr initiator, struct in_addr target,$/;"	f
+dsr_rreq_opt	dsr-rreq.h	/^struct dsr_rreq_opt {$/;"	s
+dsr_rreq_opt_add	dsr-rreq.c	/^static struct dsr_rreq_opt *dsr_rreq_opt_add(char *buf, unsigned int len,$/;"	f	file:
+dsr_rreq_opt_recv	dsr-rreq.c	/^int NSCLASS dsr_rreq_opt_recv(struct dsr_pkt *dp, struct dsr_rreq_opt *rreq_opt)$/;"	f
+dsr_rreq_route_discovery	dsr-rreq.c	/^int NSCLASS dsr_rreq_route_discovery(struct in_addr target)$/;"	f
+dsr_rreq_send	dsr-rreq.c	/^int NSCLASS dsr_rreq_send(struct in_addr target, int ttl)$/;"	f
+dsr_rtc_add	dsr-rtc-simple.c	/^EXPORT_SYMBOL(dsr_rtc_add);$/;"	v
+dsr_rtc_add	dsr-rtc-simple.c	/^int dsr_rtc_add(struct dsr_srt *srt, unsigned long time, unsigned short flags)$/;"	f
+dsr_rtc_add	link-cache.h	29;"	d
+dsr_rtc_cleanup	dsr-rtc-simple.c	/^module_exit(dsr_rtc_cleanup);$/;"	v
+dsr_rtc_cleanup	dsr-rtc-simple.c	/^void __exit dsr_rtc_cleanup(void)$/;"	f
+dsr_rtc_del	dsr-rtc-simple.c	/^EXPORT_SYMBOL(dsr_rtc_del);$/;"	v
+dsr_rtc_del	dsr-rtc-simple.c	/^int dsr_rtc_del(struct in_addr src, struct in_addr dst)$/;"	f
+dsr_rtc_find	dsr-rtc-simple.c	/^EXPORT_SYMBOL(dsr_rtc_find);$/;"	v
+dsr_rtc_find	dsr-rtc-simple.c	/^struct dsr_srt *dsr_rtc_find(struct in_addr src, struct in_addr dst)$/;"	f
+dsr_rtc_find	link-cache.h	28;"	d
+dsr_rtc_flush	dsr-rtc-simple.c	/^EXPORT_SYMBOL(dsr_rtc_flush);$/;"	v
+dsr_rtc_flush	dsr-rtc-simple.c	/^void dsr_rtc_flush(void)$/;"	f
+dsr_rtc_init	dsr-rtc-simple.c	/^int __init dsr_rtc_init(void)$/;"	f
+dsr_rtc_init	dsr-rtc-simple.c	/^module_init(dsr_rtc_init);$/;"	v
+dsr_rtc_print	dsr-rtc-simple.c	/^static int dsr_rtc_print(char *buf)$/;"	f	file:
+dsr_rtc_proc_info	dsr-rtc-simple.c	/^dsr_rtc_proc_info(char *buffer, char **start, off_t offset, int length)$/;"	f	file:
+dsr_rtc_timeout	dsr-rtc-simple.c	/^static void dsr_rtc_timeout(unsigned long data)$/;"	f	file:
+dsr_rtc_update	dsr-rtc-simple.c	/^dsr_rtc_update(struct dsr_srt *srt, unsigned long time, unsigned short flags)$/;"	f
+dsr_skb_create	dsr-dev.c	/^struct sk_buff *dsr_skb_create(struct dsr_pkt *dp, struct net_device *dev)$/;"	f
+dsr_srt	dsr-srt.h	/^struct dsr_srt {$/;"	s
+dsr_srt_add	dsr-srt.c	/^int NSCLASS dsr_srt_add(struct dsr_pkt *dp)$/;"	f
+dsr_srt_check_duplicate	dsr-srt.c	/^int dsr_srt_check_duplicate(struct dsr_srt *srt)$/;"	f
+dsr_srt_concatenate	dsr-srt.c	/^struct dsr_srt *dsr_srt_concatenate(struct dsr_srt *srt1, struct dsr_srt *srt2)$/;"	f
+dsr_srt_find_addr	dsr-srt.c	/^static int dsr_srt_find_addr(struct dsr_srt *srt, struct in_addr addr, $/;"	f	file:
+dsr_srt_new	dsr-srt.c	/^struct dsr_srt *dsr_srt_new(struct in_addr src, struct in_addr dst,$/;"	f
+dsr_srt_new_rev	dsr-srt.c	/^struct dsr_srt *dsr_srt_new_rev(struct dsr_srt *srt)$/;"	f
+dsr_srt_new_split	dsr-srt.c	/^struct dsr_srt *dsr_srt_new_split(struct dsr_srt *srt, struct in_addr addr)$/;"	f
+dsr_srt_new_split_rev	dsr-srt.c	/^struct dsr_srt *dsr_srt_new_split_rev(struct dsr_srt *srt, struct in_addr addr)$/;"	f
+dsr_srt_next_hop	dsr-srt.c	/^struct in_addr dsr_srt_next_hop(struct dsr_srt *srt, int sleft)$/;"	f
+dsr_srt_opt	dsr-srt.h	/^struct dsr_srt_opt {$/;"	s
+dsr_srt_opt_add	dsr-srt.c	/^struct dsr_srt_opt *dsr_srt_opt_add(char *buf, int len, int flags, $/;"	f
+dsr_srt_opt_recv	dsr-srt.c	/^int NSCLASS dsr_srt_opt_recv(struct dsr_pkt *dp, struct dsr_srt_opt *srt_opt)$/;"	f
+dsr_srt_prev_hop	dsr-srt.c	/^struct in_addr dsr_srt_prev_hop(struct dsr_srt *srt, int sleft)$/;"	f
+dsr_srt_shortcut	dsr-srt.c	/^struct dsr_srt *dsr_srt_shortcut(struct dsr_srt *srt, struct in_addr a1,$/;"	f
+dsr_start_xmit	dsr-io.c	/^void NSCLASS dsr_start_xmit(struct dsr_pkt *dp)$/;"	f
+dsr_vprintk	debug.c	/^int dsr_vprintk(const char *func, const char *fmt, va_list args)$/;"	f
+dst	dsr-ack.h	/^	u_int32_t dst;$/;"	m	struct:dsr_ack_opt
+dst	dsr-pkt.h	/^	struct in_addr dst;$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::in_addr
+dst	dsr-srt.h	/^	struct in_addr dst;$/;"	m	struct:dsr_srt	typeref:struct:dsr_srt::in_addr
+dst	link-cache.c	/^	struct in_addr src, dst;$/;"	m	struct:link_query	typeref:struct:link_query::	file:
+dst	link-cache.c	/^	struct lc_node *src, *dst;$/;"	m	struct:lc_link	typeref:struct:lc_link::	file:
+elem	moduleparam.h	/^	void *elem;$/;"	m	struct:kparam_array
+elemsize	moduleparam.h	/^	unsigned int elemsize;$/;"	m	struct:kparam_array
+end	dsr-pkt.h	/^		char *tail, *end;  $/;"	m	struct:dsr_pkt::__anon9
+err_dst	dsr-rerr.h	/^	u_int32_t err_dst;$/;"	m	struct:dsr_rerr_opt
+err_src	dsr-rerr.h	/^	u_int32_t err_src;$/;"	m	struct:dsr_rerr_opt
+err_type	dsr-rerr.h	/^	u_int8_t err_type;$/;"	m	struct:dsr_rerr_opt
+ethh	dsr-pkt.h	/^		struct ethhdr *ethh;$/;"	m	union:dsr_pkt::__anon7	typeref:struct:dsr_pkt::__anon7::ethhdr
+ethh	dsr-pkt.h	/^		struct hdr_mac *ethh;$/;"	m	union:dsr_pkt::__anon5	typeref:struct:dsr_pkt::__anon5::hdr_mac
+ethtoint	ns-agent.h	/^	inline void ethtoint(char *eth, int *num) {$/;"	f	class:DSRUU
+expire	ns-agent.cc	/^void DSRUUTimer::expire (Event *e)$/;"	f	class:DSRUUTimer
+expires	dsr-rrep.c	/^	struct timeval expires;$/;"	m	struct:grat_rrep_entry	typeref:struct:grat_rrep_entry::timeval	file:
+expires	dsr-rtc-simple.c	/^	unsigned long expires;$/;"	m	struct:rtc_entry	file:
+expires	link-cache.c	/^	struct timeval expires;$/;"	m	struct:lc_link	typeref:struct:lc_link::timeval	file:
+expires	maint-buf.c	/^	struct timeval tx_time, expires;$/;"	m	struct:maint_entry	typeref:struct:maint_entry::	file:
+expires	timer.h	/^	double expires;$/;"	m	class:DSRUUTimer
+export-objs	Makefile	/^export-objs := link-cache.o$/;"	m
+f	dsr-opt.h	/^	u_int8_t f:1;$/;"	m	struct:dsr_opt_hdr
+f	dsr-srt.h	/^	u_int16_t f:1;$/;"	m	struct:dsr_srt_opt
+fct_t	timer.h	/^typedef void (DSRUU::*fct_t) (unsigned long data);$/;"	t
+find-max	ns-2.28/ns-lib.tcl	/^proc find-max list {$/;"	p
+flags	dsr-pkt.h	/^	int flags;$/;"	m	struct:dsr_pkt
+flags	dsr-rtc-simple.c	/^	unsigned short flags;$/;"	m	struct:rtc_entry	file:
+flags	dsr-srt.h	/^	unsigned short flags;$/;"	m	struct:dsr_srt
+flags	moduleparam.h	/^	u8 flags;$/;"	m	struct:kernel_param
+flags	moduleparam.h	/^	unsigned int flags;$/;"	m	struct:kernel_param_ops
+forwarding	dsr-dev.c	/^static int forwarding = 0;$/;"	v	file:
+free	moduleparam.h	/^	void (*free)(void *arg);$/;"	m	struct:kernel_param_ops
+fs_param_cb	moduleparam.h	200;"	d
+function	timer.h	/^	fct_t function;$/;"	m	class:DSRUUTimer
+get	moduleparam.h	/^	int (*get)(char *buffer, const struct kernel_param *kp);$/;"	m	struct:kernel_param_ops
+get_confval	dsr.h	/^static inline unsigned int get_confval(enum confval cv)$/;"	f
+get_confval	ns-agent.h	/^	static const unsigned int get_confval(enum confval cv) {$/;"	f	class:DSRUU
+get_name	timer.h	/^	char *get_name() {$/;"	f	class:DSRUUTimer
+get_slave_dev_ifindex	dsr.h	/^static inline int get_slave_dev_ifindex(void)$/;"	f
+getopt	ns-2.28/roaming-node.tcl	/^proc getopt {argc argv} {$/;"	p
+gettime	timer.h	/^static inline void gettime(struct timeval *tv)$/;"	f
+grat_rrep_entry	dsr-rrep.c	/^struct grat_rrep_entry {$/;"	s	file:
+grat_rrep_query	dsr-rrep.c	/^struct grat_rrep_query {$/;"	s	file:
+grat_rrep_tbl	ns-agent.h	/^	struct tbl grat_rrep_tbl;$/;"	m	class:DSRUU	typeref:struct:DSRUU::tbl
+grat_rrep_tbl_add	dsr-rrep.c	/^int NSCLASS grat_rrep_tbl_add(struct in_addr src, struct in_addr prev_hop)$/;"	f
+grat_rrep_tbl_cleanup	dsr-rrep.c	/^void __exit NSCLASS grat_rrep_tbl_cleanup(void)$/;"	f
+grat_rrep_tbl_find	dsr-rrep.c	/^int NSCLASS grat_rrep_tbl_find(struct in_addr src, struct in_addr prev_hop)$/;"	f
+grat_rrep_tbl_init	dsr-rrep.c	/^int __init NSCLASS grat_rrep_tbl_init(void)$/;"	f
+grat_rrep_tbl_print	dsr-rrep.c	/^static int grat_rrep_tbl_print(struct tbl *t, char *buf)$/;"	f	file:
+grat_rrep_tbl_proc_info	dsr-rrep.c	/^grat_rrep_tbl_proc_info(char *buffer, char **start, off_t offset, int length)$/;"	f	file:
+grat_rrep_tbl_timeout	dsr-rrep.c	/^void NSCLASS grat_rrep_tbl_timeout(unsigned long data)$/;"	f
+grat_rrep_tbl_timer	dsr-rrep.c	/^DSRUUTimer grat_rrep_tbl_timer;$/;"	v
+grat_rrep_tbl_timer	ns-agent.h	/^	DSRUUTimer grat_rrep_tbl_timer;$/;"	m	class:DSRUU
+hdr_dsr	ns-agent.h	/^typedef dsr_opt_hdr hdr_dsr;$/;"	t
+head	tbl.h	/^	list_t head;$/;"	m	struct:tbl
+hops	link-cache.c	/^	unsigned int hops;	\/* Number of hops from source. Used to get the$/;"	m	struct:lc_node	file:
+htonl	ns-agent.h	66;"	d
+htons	ns-agent.h	67;"	d
+hw_addr	neigh.c	/^	struct sockaddr hw_addr;$/;"	m	struct:neighbor	typeref:struct:neighbor::sockaddr	file:
+hw_addr	neigh.h	/^	struct sockaddr hw_addr;$/;"	m	struct:neighbor_info	typeref:struct:neighbor_info::sockaddr
+hwparam_dma	moduleparam.h	/^	hwparam_dma,		\/* Module parameter configures a DMA channel *\/$/;"	e	enum:hwparam_type
+hwparam_dma_addr	moduleparam.h	/^	hwparam_dma_addr,	\/* Module parameter configures a DMA buffer address *\/$/;"	e	enum:hwparam_type
+hwparam_iomem	moduleparam.h	/^	hwparam_iomem,		\/* Module parameter configures an I\/O mem address *\/$/;"	e	enum:hwparam_type
+hwparam_ioport	moduleparam.h	/^	hwparam_ioport,		\/* Module parameter configures an I\/O port *\/$/;"	e	enum:hwparam_type
+hwparam_ioport_or_iomem	moduleparam.h	/^	hwparam_ioport_or_iomem, \/* Module parameter could be either, depending on other option *\/$/;"	e	enum:hwparam_type
+hwparam_irq	moduleparam.h	/^	hwparam_irq,		\/* Module parameter configures an IRQ *\/$/;"	e	enum:hwparam_type
+hwparam_other	moduleparam.h	/^	hwparam_other,		\/* Module parameter configures some other value *\/$/;"	e	enum:hwparam_type
+hwparam_type	moduleparam.h	/^enum hwparam_type {$/;"	g
+id	dsr-ack.h	/^	u_int16_t id;$/;"	m	struct:dsr_ack_opt
+id	dsr-ack.h	/^	u_int16_t id;$/;"	m	struct:dsr_ack_req_opt
+id	dsr-rreq.c	/^	unsigned int *id;$/;"	m	struct:rreq_tbl_query	file:
+id	dsr-rreq.c	/^	unsigned short id;$/;"	m	struct:id_entry	file:
+id	dsr-rreq.h	/^	u_int16_t id;$/;"	m	struct:dsr_rreq_opt
+id	maint-buf.c	/^	unsigned short *id;$/;"	m	struct:maint_buf_query	file:
+id	maint-buf.c	/^	unsigned short id;$/;"	m	struct:maint_entry	file:
+id	neigh.c	/^	unsigned short id;$/;"	m	struct:neighbor	file:
+id	neigh.h	/^	unsigned short id;$/;"	m	struct:neighbor_info
+id_entry	dsr-rreq.c	/^struct id_entry {$/;"	s	file:
+ifaddr	dsr.h	/^	struct in_addr ifaddr;$/;"	m	struct:dsr_node	typeref:struct:dsr_node::in_addr
+ifname	dsr-module.c	/^static char *ifname = NULL;$/;"	v	file:
+ifq_	ns-agent.h	/^	CMUPriQueue *ifq_;$/;"	m	class:DSRUU
+in_tbl	tbl.h	/^static inline int in_tbl(struct tbl *t, void *id, criteria_t crit)$/;"	f
+index	dsr-srt.h	/^	unsigned short index;$/;"	m	struct:dsr_srt
+inetaddr_notifier	dsr-dev.c	/^static struct notifier_block inetaddr_notifier = {$/;"	v	typeref:struct:notifier_block	file:
+info	dsr-rerr.h	/^	char info[0];$/;"	m	struct:dsr_rerr_opt
+info	neigh.c	/^	struct neighbor_info *info;$/;"	m	struct:neighbor_query	typeref:struct:neighbor_query::neighbor_info	file:
+init	timer.h	/^	void init(double expires_, fct_t fct_, unsigned long data_) {$/;"	f	class:DSRUUTimer
+init_timer	ns-agent.h	56;"	d
+initiator	dsr-rreq.c	/^	struct in_addr *initiator;$/;"	m	struct:rreq_tbl_query	typeref:struct:rreq_tbl_query::in_addr	file:
+inttoeth	ns-agent.h	/^	inline void inttoeth(int *num, char *eth) {$/;"	f	class:DSRUU
+ip_data	dsr-pkt.h	/^	char ip_data[60];$/;"	m	struct:dsr_pkt
+ip_data	dsr-pkt.h	/^	struct hdr_ip ip_data;$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::hdr_ip
+iph	dsr-pkt.h	/^		struct hdr_ip *iph;$/;"	m	union:dsr_pkt::__anon6	typeref:struct:dsr_pkt::__anon6::hdr_ip
+iph	dsr-pkt.h	/^		struct iphdr *iph;$/;"	m	union:dsr_pkt::__anon8	typeref:struct:dsr_pkt::__anon8::iphdr
+jitter	neigh.c	/^	usecs_t t_srtt, rto, t_rxtcur, t_rttmin, t_rttvar, jitter;	\/* RTT in usec *\/$/;"	m	struct:neighbor	file:
+kernel_param	moduleparam.h	/^struct kernel_param {$/;"	s
+kernel_param_lock	moduleparam.h	/^static inline void kernel_param_lock(struct module *mod)$/;"	f
+kernel_param_ops	moduleparam.h	/^struct kernel_param_ops {$/;"	s
+kernel_param_unlock	moduleparam.h	/^static inline void kernel_param_unlock(struct module *mod)$/;"	f
+killproc	dsr-uu.sh	/^killproc() {$/;"	f
+kparam_array	moduleparam.h	/^struct kparam_array$/;"	s
+kparam_string	moduleparam.h	/^struct kparam_string {$/;"	s
+l	dsr-rrep.c	/^	list_t l;$/;"	m	struct:grat_rrep_entry	file:
+l	dsr-rrep.h	/^	u_int8_t l:1;$/;"	m	struct:dsr_rrep_opt
+l	dsr-rreq.c	/^	list_t l;$/;"	m	struct:id_entry	file:
+l	dsr-rreq.c	/^	list_t l;$/;"	m	struct:rreq_tbl_entry	file:
+l	dsr-rtc-simple.c	/^	list_t l;$/;"	m	struct:rtc_entry	file:
+l	dsr-srt.h	/^	u_int16_t l:1;$/;"	m	struct:dsr_srt_opt
+l	link-cache.c	/^	list_t l;$/;"	m	struct:lc_link	file:
+l	link-cache.c	/^	list_t l;$/;"	m	struct:lc_node	file:
+l	maint-buf.c	/^	list_t l;$/;"	m	struct:maint_entry	file:
+l	neigh.c	/^	list_t l;$/;"	m	struct:neighbor	file:
+l	send-buf.c	/^	list_t l;$/;"	m	struct:send_buf_entry	file:
+laddrs	dsr-srt.h	/^	unsigned int laddrs;	\/* length in bytes if addrs *\/$/;"	m	struct:dsr_srt
+last_ack_req	neigh.c	/^	struct timeval last_ack_req;$/;"	m	struct:neighbor	typeref:struct:neighbor::timeval	file:
+last_ack_req	neigh.h	/^	struct timeval last_ack_req;$/;"	m	struct:neighbor_info	typeref:struct:neighbor_info::timeval
+last_used	dsr-rreq.c	/^	struct timeval last_used;$/;"	m	struct:rreq_tbl_entry	typeref:struct:rreq_tbl_entry::timeval	file:
+late_param_cb	moduleparam.h	206;"	d
+lc_cleanup	link-cache.c	/^module_exit(lc_cleanup);$/;"	v
+lc_cleanup	link-cache.c	/^void __exit NSCLASS lc_cleanup(void)$/;"	f
+lc_flush	link-cache.c	/^EXPORT_SYMBOL(lc_flush);$/;"	v
+lc_flush	link-cache.c	/^void NSCLASS lc_flush(void)$/;"	f
+lc_garbage_collect	link-cache.c	/^void NSCLASS lc_garbage_collect(unsigned long data)$/;"	f
+lc_garbage_collect_set	link-cache.c	/^void NSCLASS lc_garbage_collect_set(void)$/;"	f
+lc_graph	link-cache.h	/^struct lc_graph {$/;"	s
+lc_init	link-cache.c	/^int __init NSCLASS lc_init(void)$/;"	f
+lc_init	link-cache.c	/^module_init(lc_init);$/;"	v
+lc_link	link-cache.c	/^struct lc_link {$/;"	s	file:
+lc_link_add	link-cache.c	/^EXPORT_SYMBOL(lc_link_add);$/;"	v
+lc_link_add	link-cache.c	/^int NSCLASS lc_link_add(struct in_addr src, struct in_addr dst,$/;"	f
+lc_link_del	link-cache.c	/^EXPORT_SYMBOL(lc_link_del);$/;"	v
+lc_link_del	link-cache.c	/^int NSCLASS lc_link_del(struct in_addr src, struct in_addr dst)$/;"	f
+lc_node	link-cache.c	/^struct lc_node {$/;"	s	file:
+lc_node_create	link-cache.c	/^static inline struct lc_node *lc_node_create(struct in_addr addr)$/;"	f	file:
+lc_print	link-cache.c	/^static int lc_print(struct lc_graph *LC, char *buf)$/;"	f	file:
+lc_proc_info	link-cache.c	/^static int lc_proc_info(char *buffer, char **start, off_t offset, int length)$/;"	f	file:
+lc_srt_add	link-cache.c	/^EXPORT_SYMBOL(lc_srt_add);$/;"	v
+lc_srt_add	link-cache.c	/^lc_srt_add(struct dsr_srt *srt, usecs_t timeout, unsigned short flags)$/;"	f
+lc_srt_del	link-cache.c	/^int lc_srt_del(struct in_addr src, struct in_addr dst)$/;"	f
+lc_srt_find	link-cache.c	/^EXPORT_SYMBOL(lc_srt_find);$/;"	v
+lc_srt_find	link-cache.c	/^struct dsr_srt *NSCLASS lc_srt_find(struct in_addr src, struct in_addr dst)$/;"	f
+lc_timer	ns-agent.h	/^	DSRUUTimer lc_timer;$/;"	m	class:DSRUU
+len	tbl.h	/^	volatile unsigned int len;$/;"	m	struct:tbl
+length	dsr-ack.h	/^	u_int8_t length;$/;"	m	struct:dsr_ack_opt
+length	dsr-ack.h	/^	u_int8_t length;$/;"	m	struct:dsr_ack_req_opt
+length	dsr-opt.h	/^	u_int8_t length;$/;"	m	struct:dsr_opt
+length	dsr-rerr.h	/^	u_int8_t length;$/;"	m	struct:dsr_rerr_opt
+length	dsr-rrep.h	/^	u_int8_t length;$/;"	m	struct:dsr_rrep_opt
+length	dsr-rreq.h	/^	u_int8_t length;$/;"	m	struct:dsr_rreq_opt
+length	dsr-srt.h	/^	u_int8_t length;$/;"	m	struct:dsr_srt_opt
+level	moduleparam.h	/^	s8 level;$/;"	m	struct:kernel_param
+link_query	link-cache.c	/^struct link_query {$/;"	s	file:
+links	link-cache.c	/^	unsigned int links;$/;"	m	struct:lc_node	file:
+links	link-cache.h	/^	struct tbl links;$/;"	m	struct:lc_graph	typeref:struct:lc_graph::tbl
+list	list.h	/^typedef struct list {$/;"	s
+list_add	list.h	/^static inline int list_add(list_t * le, list_t * head)$/;"	f
+list_add_tail	list.h	/^static inline int list_add_tail(list_t * le, list_t * head)$/;"	f
+list_del	list.h	89;"	d
+list_detach	list.h	/^static inline int list_detach(list_t * le)$/;"	f
+list_empty	list.h	83;"	d
+list_first	list.h	85;"	d
+list_for_each	list.h	76;"	d
+list_for_each_safe	list.h	79;"	d
+list_is_first	dsr-rtc-simple.c	32;"	d	file:
+list_t	list.h	/^} list_t;$/;"	t	typeref:struct:list
+list_t	tbl.h	/^typedef struct list_head list_t;$/;"	t	typeref:struct:list_head
+list_unattached	list.h	87;"	d
+listelm_add	list.h	/^static inline int listelm_add(list_t * le, list_t * prev, list_t * next)$/;"	f
+listelm_detach	list.h	/^static inline int listelm_detach(list_t * prev, list_t * next)$/;"	f
+litend	endian.c	/^int litend(void)$/;"	f
+ll_	ns-agent.h	/^	LL *ll_;$/;"	m	class:DSRUU
+lock	dsr.h	/^	spinlock_t lock;$/;"	m	struct:dsr_node
+lock	link-cache.h	/^	rwlock_t lock;$/;"	m	struct:lc_graph
+lock	tbl.h	/^	rwlock_t lock;$/;"	m	struct:tbl
+logged_chars	debug.c	/^static unsigned long logged_chars;	\/* Number of chars produced since last read+clear operation *\/$/;"	v	file:
+mac	dsr-pkt.h	/^	} mac;$/;"	m	struct:dsr_pkt	typeref:union:dsr_pkt::__anon5
+mac	dsr-pkt.h	/^	} mac;$/;"	m	struct:dsr_pkt	typeref:union:dsr_pkt::__anon7
+mac_	ns-agent.h	/^	Mac *mac_;$/;"	m	class:DSRUU
+macaddr_	ns-agent.h	/^	unsigned long macaddr_;$/;"	m	class:DSRUU
+mackill	dsr-module.c	/^static char *mackill = NULL;$/;"	v	file:
+mackill_len	dsr-module.c	/^static int mackill_len = 0;$/;"	v	file:
+mackill_list	dsr-module.c	/^static unsigned char mackill_list[MAX_MACKILL][ETH_ALEN];$/;"	v	file:
+main	endian.c	/^int main(int argc, char **argv)$/;"	f
+maint_buf	ns-agent.h	/^	struct tbl maint_buf;$/;"	m	class:DSRUU	typeref:struct:DSRUU::tbl
+maint_buf_add	maint-buf.c	/^int NSCLASS maint_buf_add(struct dsr_pkt *dp)$/;"	f
+maint_buf_cleanup	maint-buf.c	/^void NSCLASS maint_buf_cleanup(void)$/;"	f
+maint_buf_del_addr	maint-buf.c	/^int NSCLASS maint_buf_del_addr(struct in_addr nxt_hop)$/;"	f
+maint_buf_del_all	maint-buf.c	/^int NSCLASS maint_buf_del_all(struct in_addr nxt_hop)$/;"	f
+maint_buf_del_all_id	maint-buf.c	/^int NSCLASS maint_buf_del_all_id(struct in_addr nxt_hop, unsigned short id)$/;"	f
+maint_buf_get_info	maint-buf.c	/^maint_buf_get_info(char *buffer, char **start, off_t offset, int length)$/;"	f	file:
+maint_buf_init	maint-buf.c	/^int NSCLASS maint_buf_init(void)$/;"	f
+maint_buf_print	maint-buf.c	/^static int maint_buf_print(struct tbl *t, char *buffer)$/;"	f	file:
+maint_buf_query	maint-buf.c	/^struct maint_buf_query {$/;"	s	file:
+maint_buf_salvage	maint-buf.c	/^int NSCLASS maint_buf_salvage(struct dsr_pkt *dp)$/;"	f
+maint_buf_set_max_len	maint-buf.c	/^void NSCLASS maint_buf_set_max_len(unsigned int max_len)$/;"	f
+maint_buf_set_timeout	maint-buf.c	/^void NSCLASS maint_buf_set_timeout(void)$/;"	f
+maint_buf_timeout	maint-buf.c	/^void NSCLASS maint_buf_timeout(unsigned long data)$/;"	f
+maint_entry	maint-buf.c	/^struct maint_entry {$/;"	s	file:
+maint_entry_create	maint-buf.c	/^static struct maint_entry *maint_entry_create(struct dsr_pkt *dp,$/;"	f	file:
+max	moduleparam.h	/^	unsigned int max;$/;"	m	struct:kparam_array
+max_len	tbl.h	/^	volatile unsigned int max_len;$/;"	m	struct:tbl
+maxlen	moduleparam.h	/^	unsigned int maxlen;$/;"	m	struct:kparam_string
+mod	moduleparam.h	/^	struct module *mod;$/;"	m	struct:kernel_param	typeref:struct:kernel_param::module
+module_param	moduleparam.h	128;"	d
+module_param_array	moduleparam.h	423;"	d
+module_param_array_named	moduleparam.h	437;"	d
+module_param_call	moduleparam.h	231;"	d
+module_param_cb	moduleparam.h	169;"	d
+module_param_cb_unsafe	moduleparam.h	172;"	d
+module_param_hw	moduleparam.h	479;"	d
+module_param_hw_array	moduleparam.h	496;"	d
+module_param_hw_named	moduleparam.h	471;"	d
+module_param_named	moduleparam.h	148;"	d
+module_param_named_unsafe	moduleparam.h	156;"	d
+module_param_string	moduleparam.h	286;"	d
+module_param_sysfs_remove	moduleparam.h	/^static inline void module_param_sysfs_remove(struct module *mod)$/;"	f
+module_param_sysfs_setup	moduleparam.h	/^static inline int module_param_sysfs_setup(struct module *mod,$/;"	f
+module_param_unsafe	moduleparam.h	134;"	d
+my_addr	dsr.h	/^static inline struct in_addr my_addr(void)$/;"	f
+my_addr	ns-agent.h	/^	struct in_addr my_addr() {$/;"	f	class:DSRUU
+myaddr_	ns-agent.h	/^	struct in_addr myaddr_;$/;"	m	class:DSRUU	typeref:struct:DSRUU::in_addr
+n	link-cache.c	/^	struct lc_node *n;$/;"	m	struct:cheapest_node	typeref:struct:cheapest_node::lc_node	file:
+name	dsr.h	/^	const char *name;$/;"	m	struct:__anon11
+name	moduleparam.h	/^	const char *name;$/;"	m	struct:kernel_param
+name2cmd	ns-agent.cc	/^static int name2cmd(const char *name)$/;"	f	file:
+name_	timer.h	/^	char *name_;$/;"	m	class:DSRUUTimer
+neigh_tbl	ns-agent.h	/^	struct tbl neigh_tbl;$/;"	m	class:DSRUU	typeref:struct:DSRUU::tbl
+neigh_tbl_add	neigh.c	/^int NSCLASS neigh_tbl_add(struct in_addr neigh_addr, struct hdr_mac *mach)$/;"	f
+neigh_tbl_cleanup	neigh.c	/^void __exit NSCLASS neigh_tbl_cleanup(void)$/;"	f
+neigh_tbl_create	neigh.c	/^static struct neighbor *neigh_tbl_create(struct in_addr addr,$/;"	f	file:
+neigh_tbl_del	neigh.c	/^int NSCLASS neigh_tbl_del(struct in_addr neigh_addr)$/;"	f
+neigh_tbl_garbage_timeout	neigh.c	/^void NSCLASS neigh_tbl_garbage_timeout(unsigned long data)$/;"	f
+neigh_tbl_id_inc	neigh.c	/^int NSCLASS neigh_tbl_id_inc(struct in_addr neigh_addr)$/;"	f
+neigh_tbl_init	neigh.c	/^int __init NSCLASS neigh_tbl_init(void)$/;"	f
+neigh_tbl_print	neigh.c	/^static int neigh_tbl_print(char *buf)$/;"	f	file:
+neigh_tbl_proc_info	neigh.c	/^neigh_tbl_proc_info(char *buffer, char **start, off_t offset, int length)$/;"	f	file:
+neigh_tbl_query	neigh.c	/^neigh_tbl_query(struct in_addr neigh_addr, struct neighbor_info *neigh_info)$/;"	f
+neigh_tbl_set_ack_req_time	neigh.c	/^int NSCLASS neigh_tbl_set_ack_req_time(struct in_addr neigh_addr)$/;"	f
+neigh_tbl_set_rto	neigh.c	/^neigh_tbl_set_rto(struct in_addr neigh_addr, struct neighbor_info *neigh_info)$/;"	f
+neigh_tbl_timer	neigh.c	/^static DSRUUTimer neigh_tbl_timer;$/;"	v	file:
+neigh_tbl_timer	ns-agent.h	/^	DSRUUTimer neigh_tbl_timer;$/;"	m	class:DSRUU
+neighbor	neigh.c	/^struct neighbor {$/;"	s	file:
+neighbor_info	neigh.h	/^struct neighbor_info {$/;"	s
+neighbor_query	neigh.c	/^struct neighbor_query {$/;"	s	file:
+netdev_notifier	dsr-dev.c	/^static struct notifier_block netdev_notifier = {$/;"	v	typeref:struct:notifier_block	file:
+next	list.h	/^	struct list *prev, *next;$/;"	m	struct:list	typeref:struct:list::
+nh	dsr-opt.h	/^	u_int8_t nh;$/;"	m	struct:dsr_opt_hdr
+nh	dsr-pkt.h	/^	} nh;$/;"	m	struct:dsr_pkt	typeref:union:dsr_pkt::__anon6
+nh	dsr-pkt.h	/^	} nh;$/;"	m	struct:dsr_pkt	typeref:union:dsr_pkt::__anon8
+node_	ns-agent.h	/^	MobileNode *node_;$/;"	m	class:DSRUU
+node_addr	dsr-rreq.c	/^	struct in_addr node_addr;$/;"	m	struct:rreq_tbl_entry	typeref:struct:rreq_tbl_entry::in_addr	file:
+node_unreach_info	dsr-rerr.h	/^struct node_unreach_info {$/;"	s
+nodes	link-cache.h	/^	struct tbl nodes;$/;"	m	struct:lc_graph	typeref:struct:lc_graph::tbl
+ns_deliver	ns-agent.cc	/^void DSRUU::ns_deliver(struct dsr_pkt *dp)$/;"	f	class:DSRUU
+ns_packet_create	ns-agent.cc	/^Packet *DSRUU::ns_packet_create(struct dsr_pkt *dp)$/;"	f	class:DSRUU
+ns_xmit	ns-agent.cc	/^void DSRUU::ns_xmit(struct dsr_pkt *dp)$/;"	f	class:DSRUU
+ntohl	ns-agent.h	65;"	d
+ntohs	ns-agent.h	68;"	d
+num	moduleparam.h	/^	unsigned int *num;$/;"	m	struct:kparam_array
+num_ack_opts	dsr-pkt.h	/^	int num_rrep_opts, num_rerr_opts, num_rreq_opts, num_ack_opts;$/;"	m	struct:dsr_pkt
+num_pkts	debug.c	/^atomic_t num_pkts = ATOMIC_INIT(0);$/;"	v
+num_rerr_opts	dsr-pkt.h	/^	int num_rrep_opts, num_rerr_opts, num_rreq_opts, num_ack_opts;$/;"	m	struct:dsr_pkt
+num_rexmts	dsr-rreq.c	/^	unsigned int num_rexmts;$/;"	m	struct:rreq_tbl_entry	file:
+num_rrep_opts	dsr-pkt.h	/^	int num_rrep_opts, num_rerr_opts, num_rreq_opts, num_ack_opts;$/;"	m	struct:dsr_pkt
+num_rreq_opts	dsr-pkt.h	/^	int num_rrep_opts, num_rerr_opts, num_rreq_opts, num_ack_opts;$/;"	m	struct:dsr_pkt
+nxt_hop	dsr-pkt.h	/^	struct in_addr nxt_hop;$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::in_addr
+nxt_hop	maint-buf.c	/^	struct in_addr *nxt_hop;$/;"	m	struct:maint_buf_query	typeref:struct:maint_buf_query::in_addr	file:
+nxt_hop	maint-buf.c	/^	struct in_addr nxt_hop;$/;"	m	struct:maint_entry	typeref:struct:maint_entry::in_addr	file:
+offset	dsr-opt.h	/^	inline static int &offset() {$/;"	f	struct:dsr_opt_hdr
+offset_	dsr-opt.h	/^	static int offset_;$/;"	m	struct:dsr_opt_hdr
+offset_	ns-agent.cc	/^int hdr_dsr::offset_;$/;"	m	class:hdr_dsr	file:
+okfn	send-buf.c	/^	xmit_fct_t okfn;$/;"	m	struct:send_buf_entry	file:
+ops	moduleparam.h	/^	const struct kernel_param_ops *ops;$/;"	m	struct:kernel_param	typeref:struct:kernel_param::kernel_param_ops
+ops	moduleparam.h	/^	const struct kernel_param_ops *ops;$/;"	m	struct:kparam_array	typeref:struct:kparam_array::kernel_param_ops
+opth	dsr-pkt.h	/^			struct dsr_opt_hdr *opth;$/;"	m	union:dsr_pkt::__anon9::__anon10	typeref:struct:dsr_pkt::__anon9::__anon10::dsr_opt_hdr
+option	dsr-opt.h	/^	struct dsr_opt option[0];$/;"	m	struct:dsr_opt_hdr	typeref:struct:dsr_opt_hdr::dsr_opt
+p	dsr-pkt.h	/^	Packet *p;$/;"	m	struct:dsr_pkt
+p_len	dsr-opt.h	/^	u_int16_t p_len;	\/* payload length *\/$/;"	m	struct:dsr_opt_hdr
+param_check_bint	moduleparam.h	408;"	d
+param_check_bool	moduleparam.h	391;"	d
+param_check_bool_enable_only	moduleparam.h	397;"	d
+param_check_byte	moduleparam.h	344;"	d
+param_check_charp	moduleparam.h	385;"	d
+param_check_int	moduleparam.h	359;"	d
+param_check_invbool	moduleparam.h	402;"	d
+param_check_long	moduleparam.h	369;"	d
+param_check_short	moduleparam.h	349;"	d
+param_check_uint	moduleparam.h	364;"	d
+param_check_ullong	moduleparam.h	379;"	d
+param_check_ulong	moduleparam.h	374;"	d
+param_check_ushort	moduleparam.h	354;"	d
+param_get_bint	moduleparam.h	407;"	d
+parse_mackill	dsr-module.c	/^static int parse_mackill(void)$/;"	f	file:
+payload	dsr-pkt.h	/^	AppData *payload;$/;"	m	struct:dsr_pkt
+payload	dsr-pkt.h	/^	char *payload;$/;"	m	struct:dsr_pkt
+payload_len	dsr-pkt.h	/^	int payload_len;$/;"	m	struct:dsr_pkt
+perm	moduleparam.h	/^	const u16 perm;$/;"	m	struct:kernel_param
+postcore_param_cb	moduleparam.h	191;"	d
+pred	link-cache.c	/^	struct lc_node *pred;	\/* predecessor *\/$/;"	m	struct:lc_node	typeref:struct:lc_node::lc_node	file:
+prev	list.h	/^	struct list *prev, *next;$/;"	m	struct:list	typeref:struct:list::list
+prev_hop	dsr-rrep.c	/^	struct in_addr *src, *prev_hop;$/;"	m	struct:grat_rrep_query	typeref:struct:grat_rrep_query::	file:
+prev_hop	dsr-rrep.c	/^	struct in_addr src, prev_hop;$/;"	m	struct:grat_rrep_entry	typeref:struct:grat_rrep_entry::	file:
+print_cost	link-cache.c	/^static char *print_cost(unsigned int cost)$/;"	f	file:
+print_eth	debug.h	/^static inline char *print_eth(char *addr)$/;"	f
+print_hops	link-cache.c	/^static char *print_hops(unsigned int hops)$/;"	f	file:
+print_ip	debug.h	/^static inline char *print_ip(struct in_addr addr)$/;"	f
+print_pkt	debug.h	/^static inline char *print_pkt(char *p, int len)$/;"	f
+print_srt	dsr-srt.h	/^static inline char *print_srt(struct dsr_srt *srt)$/;"	f
+print_timeval	timer.h	/^static inline char *print_timeval(struct timeval *tv)$/;"	f
+proc_dbg_operations	debug.c	/^struct file_operations proc_dbg_operations = {$/;"	v	typeref:struct:file_operations
+prv_hop	dsr-pkt.h	/^	struct in_addr prv_hop;$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::in_addr
+qtime	send-buf.c	/^	struct timeval qtime;$/;"	m	struct:send_buf_entry	typeref:struct:send_buf_entry::timeval	file:
+raw	dsr-pkt.h	/^			char *raw;$/;"	m	union:dsr_pkt::__anon9::__anon10
+raw	dsr-pkt.h	/^		char *raw;$/;"	m	union:dsr_pkt::__anon6
+raw	dsr-pkt.h	/^		char *raw;$/;"	m	union:dsr_pkt::__anon7
+raw	dsr-pkt.h	/^		char *raw;$/;"	m	union:dsr_pkt::__anon8
+raw	dsr-pkt.h	/^		unsigned char *raw;$/;"	m	union:dsr_pkt::__anon5
+recv	ns-agent.cc	/^void DSRUU::recv(Packet* p, Handler*)$/;"	f	class:DSRUU
+rerr_opt	dsr-pkt.h	/^	struct dsr_rerr_opt *rerr_opt[MAX_RERR_OPTS];$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::dsr_rerr_opt
+res	dsr-opt.h	/^	u_int8_t res:7;$/;"	m	struct:dsr_opt_hdr
+res	dsr-rerr.h	/^	u_int8_t res:4;$/;"	m	struct:dsr_rerr_opt
+res	dsr-rrep.h	/^	u_int8_t res:7;$/;"	m	struct:dsr_rrep_opt
+res	dsr-srt.h	/^	u_int16_t res:4;$/;"	m	struct:dsr_srt_opt
+rexmt	maint-buf.c	/^	unsigned int rexmt;$/;"	m	struct:maint_entry	file:
+rp_filter	dsr-dev.c	/^static int rp_filter = 0;$/;"	v	file:
+rrep_opt	dsr-pkt.h	/^	struct dsr_rrep_opt *rrep_opt[MAX_RREP_OPTS];$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::dsr_rrep_opt
+rreq_id_tbl	dsr-rreq.c	/^	struct tbl rreq_id_tbl;$/;"	m	struct:rreq_tbl_entry	typeref:struct:rreq_tbl_entry::tbl	file:
+rreq_opt	dsr-pkt.h	/^	struct dsr_rreq_opt *rreq_opt;	\/* Can only be one *\/$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::dsr_rreq_opt
+rreq_seqno	dsr-rreq.c	/^static unsigned int rreq_seqno;$/;"	v	file:
+rreq_seqno	ns-agent.h	/^	unsigned int rreq_seqno;$/;"	m	class:DSRUU
+rreq_tbl	ns-agent.h	/^	struct tbl rreq_tbl;$/;"	m	class:DSRUU	typeref:struct:DSRUU::tbl
+rreq_tbl_add_id	dsr-rreq.c	/^rreq_tbl_add_id(struct in_addr initiator, struct in_addr target,$/;"	f
+rreq_tbl_cleanup	dsr-rreq.c	/^void __exit NSCLASS rreq_tbl_cleanup(void)$/;"	f
+rreq_tbl_entry	dsr-rreq.c	/^struct rreq_tbl_entry {$/;"	s	file:
+rreq_tbl_init	dsr-rreq.c	/^int __init NSCLASS rreq_tbl_init(void)$/;"	f
+rreq_tbl_print	dsr-rreq.c	/^static int rreq_tbl_print(struct tbl *t, char *buf)$/;"	f	file:
+rreq_tbl_proc_info	dsr-rreq.c	/^rreq_tbl_proc_info(char *buffer, char **start, off_t offset, int length)$/;"	f	file:
+rreq_tbl_query	dsr-rreq.c	/^struct rreq_tbl_query {$/;"	s	file:
+rreq_tbl_route_discovery_cancel	dsr-rreq.c	/^int NSCLASS rreq_tbl_route_discovery_cancel(struct in_addr dst)$/;"	f
+rreq_tbl_set_max_len	dsr-rreq.c	/^void NSCLASS rreq_tbl_set_max_len(unsigned int max_len)$/;"	f
+rreq_tbl_timeout	dsr-rreq.c	/^void NSCLASS rreq_tbl_timeout(unsigned long data)$/;"	f
+rtc_entry	dsr-rtc-simple.c	/^struct rtc_entry {$/;"	s	file:
+rtc_len	dsr-rtc-simple.c	/^static unsigned int rtc_len;$/;"	v	file:
+rtc_lock	dsr-rtc-simple.c	/^static rwlock_t rtc_lock = RW_LOCK_UNLOCKED;$/;"	v	file:
+rtc_timer	dsr-rtc-simple.c	/^static DSRUUTimer rtc_timer;$/;"	v	file:
+rto	maint-buf.c	/^	usecs_t rto;$/;"	m	struct:maint_entry	file:
+rto	neigh.c	/^	usecs_t t_srtt, rto, t_rxtcur, t_rttmin, t_rttvar, jitter;	\/* RTT in usec *\/$/;"	m	struct:neighbor	file:
+rto	neigh.h	/^	usecs_t rtt, rto;		\/* RTT and Round Trip Timeout *\/$/;"	m	struct:neighbor_info
+rto_calc	neigh.c	/^static inline int rto_calc(void *pos, void *query)$/;"	f	file:
+rtt	maint-buf.c	/^	usecs_t rtt;$/;"	m	struct:maint_buf_query	file:
+rtt	neigh.h	/^	usecs_t rtt, rto;		\/* RTT and Round Trip Timeout *\/$/;"	m	struct:neighbor_info
+salv	dsr-rerr.h	/^	u_int8_t salv:4;$/;"	m	struct:dsr_rerr_opt
+salv	dsr-srt.h	/^	u_int16_t salv:4;$/;"	m	struct:dsr_srt_opt
+salvage	dsr-pkt.h	/^	int salvage;$/;"	m	struct:dsr_pkt
+send_buf	ns-agent.h	/^	struct tbl send_buf;$/;"	m	class:DSRUU	typeref:struct:DSRUU::tbl
+send_buf_cleanup	send-buf.c	/^void __exit NSCLASS send_buf_cleanup(void)$/;"	f
+send_buf_enqueue_packet	send-buf.c	/^int NSCLASS send_buf_enqueue_packet(struct dsr_pkt *dp, xmit_fct_t okfn)$/;"	f
+send_buf_entry	send-buf.c	/^struct send_buf_entry {$/;"	s	file:
+send_buf_entry_create	send-buf.c	/^static struct send_buf_entry *send_buf_entry_create(struct dsr_pkt *dp,$/;"	f	file:
+send_buf_flush	send-buf.c	/^static inline int send_buf_flush(struct tbl *t)$/;"	f	file:
+send_buf_get_info	send-buf.c	/^send_buf_get_info(char *buffer, char **start, off_t offset, int length)$/;"	f	file:
+send_buf_init	send-buf.c	/^int __init NSCLASS send_buf_init(void)$/;"	f
+send_buf_print	send-buf.c	/^static int send_buf_print(struct tbl *t, char *buffer)$/;"	f	file:
+send_buf_set_max_len	send-buf.c	/^void NSCLASS send_buf_set_max_len(unsigned int max_len)$/;"	f
+send_buf_set_verdict	send-buf.c	/^int NSCLASS send_buf_set_verdict(int verdict, struct in_addr dst)$/;"	f
+send_buf_timeout	send-buf.c	/^void NSCLASS send_buf_timeout(unsigned long data)$/;"	f
+send_buf_timer	ns-agent.h	/^	DSRUUTimer send_buf_timer;$/;"	m	class:DSRUU
+send_buf_timer	send-buf.c	/^static DSRUUTimer send_buf_timer;$/;"	v	file:
+set	moduleparam.h	/^	int (*set)(const char *val, const struct kernel_param *kp);$/;"	m	struct:kernel_param_ops
+set_ack_req_time	neigh.c	/^static inline int set_ack_req_time(void *pos, void *addr)$/;"	f	file:
+set_confval	dsr.h	/^static inline int set_confval(enum confval cv, unsigned int val)$/;"	f
+set_confval	ns-agent.h	/^	static const unsigned int set_confval(enum confval cv, unsigned int val) {$/;"	f	class:DSRUU
+set_multicast_list	dsr-dev.c	/^static void set_multicast_list(struct net_device *dev)$/;"	f	file:
+set_timer	ns-agent.h	/^	void set_timer(DSRUUTimer * t, struct timeval *expires) {$/;"	f	class:DSRUU
+set_timer	timer.h	/^static inline void set_timer(DSRUUTimer * t, struct timeval *expires)$/;"	f
+size	dsr-opt.h	/^	int size() {$/;"	f	struct:dsr_opt_hdr
+skb	dsr-pkt.h	/^	struct sk_buff *skb;$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::sk_buff
+slave_dev	dsr.h	/^	struct net_device *slave_dev;$/;"	m	struct:dsr_node	typeref:struct:dsr_node::net_device
+slave_ifname	dsr.h	/^	char slave_ifname[IFNAMSIZ];$/;"	m	struct:dsr_node
+slave_indev	dsr.h	/^	struct in_device *slave_indev;$/;"	m	struct:dsr_node	typeref:struct:dsr_node::in_device
+sleft	dsr-srt.h	/^	u_int16_t sleft:6;$/;"	m	struct:dsr_srt_opt
+src	dsr-ack.h	/^	u_int32_t src;$/;"	m	struct:dsr_ack_opt
+src	dsr-pkt.h	/^	struct in_addr src;	\/* IP level data *\/$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::in_addr
+src	dsr-rrep.c	/^	struct in_addr *src, *prev_hop;$/;"	m	struct:grat_rrep_query	typeref:struct:grat_rrep_query::in_addr	file:
+src	dsr-rrep.c	/^	struct in_addr src, prev_hop;$/;"	m	struct:grat_rrep_entry	typeref:struct:grat_rrep_entry::in_addr	file:
+src	dsr-srt.h	/^	struct in_addr src;$/;"	m	struct:dsr_srt	typeref:struct:dsr_srt::in_addr
+src	link-cache.c	/^	struct in_addr src, dst;$/;"	m	struct:link_query	typeref:struct:link_query::in_addr	file:
+src	link-cache.c	/^	struct lc_node *src, *dst;$/;"	m	struct:lc_link	typeref:struct:lc_link::lc_node	file:
+src	link-cache.h	/^	struct lc_node *src;$/;"	m	struct:lc_graph	typeref:struct:lc_graph::lc_node
+srt	dsr-pkt.h	/^	struct dsr_srt *srt;	\/* Source route *\/$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::dsr_srt
+srt	dsr-rtc-simple.c	/^	struct dsr_srt srt;$/;"	m	struct:rtc_entry	typeref:struct:rtc_entry::dsr_srt	file:
+srt_opt	dsr-pkt.h	/^	struct dsr_srt_opt *srt_opt;$/;"	m	struct:dsr_pkt	typeref:struct:dsr_pkt::dsr_srt_opt
+state	dsr-rreq.c	/^	int state;$/;"	m	struct:rreq_tbl_entry	file:
+stats	dsr.h	/^	struct net_device_stats stats;$/;"	m	struct:dsr_node	typeref:struct:dsr_node::net_device_stats
+status	link-cache.c	/^	int status;$/;"	m	struct:lc_link	file:
+stop	ns-2.28/roaming-node.tcl	/^proc stop {} {$/;"	p
+str	moduleparam.h	/^		const struct kparam_string *str;$/;"	m	union:kernel_param::__anon3	typeref:struct:kernel_param::__anon3::kparam_string
+string	moduleparam.h	/^	char *string;$/;"	m	struct:kparam_string
+subsys_param_cb	moduleparam.h	197;"	d
+t_rttmin	neigh.c	/^	usecs_t t_srtt, rto, t_rxtcur, t_rttmin, t_rttvar, jitter;	\/* RTT in usec *\/$/;"	m	struct:neighbor	file:
+t_rttvar	neigh.c	/^	usecs_t t_srtt, rto, t_rxtcur, t_rttmin, t_rttvar, jitter;	\/* RTT in usec *\/$/;"	m	struct:neighbor	file:
+t_rxtcur	neigh.c	/^	usecs_t t_srtt, rto, t_rxtcur, t_rttmin, t_rttvar, jitter;	\/* RTT in usec *\/$/;"	m	struct:neighbor	file:
+t_srtt	neigh.c	/^	usecs_t t_srtt, rto, t_rxtcur, t_rttmin, t_rttvar, jitter;	\/* RTT in usec *\/$/;"	m	struct:neighbor	file:
+tail	dsr-pkt.h	/^		char *tail, *end;  $/;"	m	struct:dsr_pkt::__anon9
+tap	ns-agent.cc	/^void DSRUU::tap(const Packet *p_in)$/;"	f	class:DSRUU
+target	dsr-rreq.c	/^	struct in_addr *target;$/;"	m	struct:rreq_tbl_query	typeref:struct:rreq_tbl_query::in_addr	file:
+target	dsr-rreq.h	/^	u_int32_t target;$/;"	m	struct:dsr_rreq_opt
+tbl	tbl.h	/^struct tbl {$/;"	s
+tbl_add	tbl.h	/^static inline int tbl_add(struct tbl *t, list_t * l, criteria_t crit)$/;"	f
+tbl_add_tail	tbl.h	/^static inline int tbl_add_tail(struct tbl *t, list_t * l)$/;"	f
+tbl_del	tbl.h	/^static inline int tbl_del(struct tbl *t, list_t * l)$/;"	f
+tbl_del_first	tbl.h	/^static inline int tbl_del_first(struct tbl *t)$/;"	f
+tbl_detach	tbl.h	/^static inline void *tbl_detach(struct tbl *t, list_t * l)$/;"	f
+tbl_detach_first	tbl.h	/^static inline void *tbl_detach_first(struct tbl *t)$/;"	f
+tbl_do_for_each	tbl.h	/^static inline int tbl_do_for_each(struct tbl *t, void *data, do_t func)$/;"	f
+tbl_empty	tbl.h	/^static inline int tbl_empty(struct tbl *t)$/;"	f
+tbl_find_del	tbl.h	/^static inline int tbl_find_del(struct tbl *t, void *id, criteria_t crit)$/;"	f
+tbl_find_detach	tbl.h	/^static inline void *tbl_find_detach(struct tbl *t, void *id, criteria_t crit)$/;"	f
+tbl_find_do	tbl.h	/^static inline int tbl_find_do(struct tbl *t, void *data, do_t func)$/;"	f
+tbl_flush	tbl.h	/^static inline void tbl_flush(struct tbl *t, do_t at_flush)$/;"	f
+tbl_for_each_del	tbl.h	/^static inline int tbl_for_each_del(struct tbl *t, void *id, criteria_t crit)$/;"	f
+tbl_is_first	tbl.h	27;"	d
+time_add_msec	dsr.h	/^static inline unsigned long time_add_msec(unsigned long msecs)$/;"	f
+time_parse	ns-2.28/ns-lib.tcl	/^proc time_parse { spec } {$/;"	p
+timeout	dsr-rreq.c	/^	usecs_t timeout;$/;"	m	struct:rreq_tbl_entry	file:
+timer	dsr-rreq.c	/^	DSRUUTimer *timer;$/;"	m	struct:rreq_tbl_entry	file:
+timer	link-cache.h	/^	struct timer_list timer;$/;"	m	struct:lc_graph	typeref:struct:lc_graph::timer_list
+timer_pending	ns-agent.h	57;"	d
+timeval_add_usecs	timer.h	/^static inline int timeval_add_usecs(struct timeval *tv, usecs_t usecs)$/;"	f
+timeval_diff	timer.h	/^static inline long timeval_diff(struct timeval *tv1, struct timeval *tv2)$/;"	f
+trace	debug.c	/^int trace(const char *func, const char *fmt, ...)$/;"	f
+trace	ns-agent.cc	/^int DSRUU::trace(const char *func, const char *fmt, ...)$/;"	f	class:DSRUU
+trace_	ns-agent.h	/^	Trace *trace_;$/;"	m	class:DSRUU
+trg_addr	dsr-rreq.c	/^	struct in_addr trg_addr;$/;"	m	struct:id_entry	typeref:struct:id_entry::in_addr	file:
+ttl	dsr-rreq.c	/^	int ttl;$/;"	m	struct:rreq_tbl_entry	file:
+tx_time	dsr-rreq.c	/^	struct timeval tx_time;$/;"	m	struct:rreq_tbl_entry	typeref:struct:rreq_tbl_entry::timeval	file:
+tx_time	maint-buf.c	/^	struct timeval tx_time, expires;$/;"	m	struct:maint_entry	typeref:struct:maint_entry::timeval	file:
+type	dsr-ack.h	/^	u_int8_t type;$/;"	m	struct:dsr_ack_opt
+type	dsr-ack.h	/^	u_int8_t type;$/;"	m	struct:dsr_ack_req_opt
+type	dsr-opt.h	/^	u_int8_t type;$/;"	m	struct:dsr_opt
+type	dsr-opt.h	/^	u_int8_t type;$/;"	m	struct:dsr_pad1_opt
+type	dsr-rerr.h	/^	u_int8_t type;$/;"	m	struct:dsr_rerr_opt
+type	dsr-rrep.h	/^	u_int8_t type;$/;"	m	struct:dsr_rrep_opt
+type	dsr-rreq.h	/^	u_int8_t type;$/;"	m	struct:dsr_rreq_opt
+type	dsr-srt.h	/^	u_int8_t type;$/;"	m	struct:dsr_srt_opt
+type	dsr.h	/^	enum confval_type type;$/;"	m	struct:__anon11	typeref:enum:__anon11::confval_type
+unr_node	dsr-rerr.h	/^	u_int32_t unr_node;$/;"	m	struct:node_unreach_info
+usecs_t	timer.h	/^typedef unsigned long usecs_t;$/;"	t
+val	dsr.h	/^	const unsigned int val;$/;"	m	struct:__anon11
+warn	ns-2.28/ns-lib.tcl	/^proc warn {msg} {$/;"	p
+xmit_failed	ns-agent.cc	/^void DSRUU::xmit_failed(Packet *p)$/;"	f	class:DSRUU
+xmit_failure	ns-agent.cc	/^void xmit_failure(Packet *p, void *data)$/;"	f
+xmit_fct_t	send-buf.h	/^typedef int (*xmit_fct_t) (struct dsr_pkt *);$/;"	t
+xmit_fct_t	send-buf.h	/^typedef void (DSRUU::*xmit_fct_t) (struct dsr_pkt *);$/;"	t
+~DSRUU	ns-agent.cc	/^DSRUU::~DSRUU()$/;"	f	class:DSRUU

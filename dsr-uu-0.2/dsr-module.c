@@ -23,7 +23,7 @@
 #include <asm/uaccess.h>
 #include <linux/netfilter_ipv4.h>
 #ifdef KERNEL26
-#include <linux/moduleparam.h>
+//#include <linux/moduleparam.h>
 #endif
 #include <net/icmp.h>
 #include <linux/ctype.h>
