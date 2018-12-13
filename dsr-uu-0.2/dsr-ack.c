@@ -39,7 +39,7 @@ struct dsr_ack_opt *dsr_ack_opt_add(char *buf, int len, struct in_addr src,
 	return ack;
 }
 
-int NSCLASS dsr_ack_send(struct in_addr dst, unsigned short id)
+int NSCLASS dsr_ack_send(struct in_addr dst, unsigned short id)  /*send ack*/
 {
 	struct dsr_pkt *dp;
 	struct dsr_ack_opt *ack_opt;
