@@ -6,5 +6,5 @@ git commit -m "`date`"
 git checkout master
 git merge newbranch
 git diff
-git push -u origin master
-echo gaojiang@mail.dlut.edu.cn | echo git8494+ |git branch -D newbranch
+echo gaojiang@mail.dlut.edu.cn | echo git8494+ |git push -u origin master
+git branch -D newbranch
