@@ -6,6 +6,6 @@ Ubuntu 使用Github
 4. git config --global credential.helper="store"
 
 推代码：bash commit.sh
-
+123d551515155
 参考：https://blog.csdn.net/qq_15037231/article/details/74224357
 
