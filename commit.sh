@@ -1,3 +1,4 @@
+git pull
 git branch newbranch
 git checkout newbranch
 git add .
@@ -6,4 +7,4 @@ git checkout master
 git merge newbranch
 git diff
 git push -u origin master
-git branch -D newbranch
+echo gaojiang@mail.dlut.edu.cn | echo git8494+ |git branch -D newbranch
