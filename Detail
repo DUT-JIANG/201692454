@@ -1,2 +1,7 @@
 https://baike.baidu.com/item/Dynamic%20Source%20Routing/7092121?fr=aladdin DSR
+dsr_rreq.c:dsr_rreq_send:启动路由发现
+dsr_rrep.c:dsr_rrep_send:回复路由发现
+dsr_io.c:dsr_recv: 接收、处理、转发 调用dsr_dev:dsr_dev_deliver处理
+dsr_srt.c:dsr_srt_opt_recv 路由缩短
+dsr_rerr:路由错误
 
