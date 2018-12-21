@@ -217,7 +217,7 @@ static struct dsr_rrep_opt *dsr_rrep_opt_add(char *buf, int len,
 
 	return rrep_opt;
 }
-
+//发送reply 
 int NSCLASS dsr_rrep_send(struct dsr_srt *srt, struct dsr_srt *srt_to_me)
 {
 	struct dsr_pkt *dp = NULL;
@@ -233,10 +233,9 @@ int NSCLASS dsr_rrep_send(struct dsr_srt *srt, struct dsr_srt *srt_to_me)
 		DEBUG("Could not allocate DSR packet\n");
 		return -1;
 	}
-
+	/*目的地=dst 源节点=自己 srt->addr中存有路径信息*/
 	dp->src = my_addr();
 	dp->dst = srt->dst;
-
 	if (srt->laddrs == 0)
 		dp->nxt_hop = dp->dst;
 	else
@@ -314,7 +313,7 @@ int NSCLASS dsr_rrep_send(struct dsr_srt *srt, struct dsr_srt *srt_to_me)
 /* 		dp->flags |= PKT_REQUEST_ACK; */
 
 	dp->flags |= PKT_XMIT_JITTER;
-
+	/*传输数据包*/
 	XMIT(dp);
 
 	return 0;

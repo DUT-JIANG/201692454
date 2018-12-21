@@ -660,7 +660,7 @@ INTERNET-DRAFT     The Dynamic Source Routing Protocol      19 July 2004
    Otherwise, if this node receiving the Route Request has recently seen
    another Route Request message from this initiator bearing this same
    request identification and target address, or if this node's own
-   address is already listed in the route record in the Route Request,
+    addressis already listed in the route  in recordthe Route Request,
    this node discards the Request.  (A node considers a Request recently
    seen if it still has information about that Request in its Route
    Request Table, which is described in Section 4.3.)  Otherwise, this
@@ -828,11 +828,6 @@ INTERNET-DRAFT     The Dynamic Source Routing Protocol      19 July 2004
    can send the packet using the new route immediately.  Otherwise, it
    SHOULD perform a new Route Discovery for this target (subject to the
    back-off described in Section 3.1).
-
-
-
-
-
 
 
 
@@ -1163,6 +1158,7 @@ INTERNET-DRAFT     The Dynamic Source Routing Protocol      19 July 2004
 
 3.4.3. Automatic Route Shortening
 
+
    Source routes in use MAY be automatically shortened if one or more
    intermediate nodes in the route become no longer necessary.  This
    mechanism of automatically shortening routes in use is somewhat
@@ -1364,7 +1360,7 @@ INTERNET-DRAFT     The Dynamic Source Routing Protocol      19 July 2004
 
    When a flow is established as described in Section 3.5.1, a packet
    is sent which establishes state in each node along the route.
-   This state is soft; that is, the protocol contains mechanisms for
+   This state is soft; that is, the protocol contains mechanisms 41for
    recovering from the loss of this state.  However, the use of these
    mechanisms may result in reduced performance for packets sent
    along flows with forgotten state.  As a result, it is desirable

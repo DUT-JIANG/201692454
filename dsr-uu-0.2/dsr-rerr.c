@@ -59,7 +59,7 @@ static struct dsr_rerr_opt *dsr_rerr_opt_add(char *buf, int len,
 
 	return rerr_opt;
 }
-
+/*发送路由错误信息*/
 int NSCLASS dsr_rerr_send(struct dsr_pkt *dp_trigg, struct in_addr unr_addr)
 {
 	struct dsr_pkt *dp;
@@ -147,7 +147,7 @@ int NSCLASS dsr_rerr_send(struct dsr_pkt *dp_trigg, struct in_addr unr_addr)
 
 	buf += DSR_SRT_OPT_LEN(dp->srt);
 	len -= DSR_SRT_OPT_LEN(dp->srt);
-
+	/*dp->src 到 dp->dst 发生故障*/
 	rerr_opt = dsr_rerr_opt_add(buf, len, NODE_UNREACHABLE, dp->src, 
 				    dp->dst, unr_addr, 
 				    dp_trigg->srt_opt->salv);
@@ -190,7 +190,7 @@ int NSCLASS dsr_rerr_send(struct dsr_pkt *dp_trigg, struct in_addr unr_addr)
 	      print_ip(err_src),
 	      print_ip(err_dst), 
 	      print_ip(*((struct in_addr *)rerr_opt->info)));
-
+	/*传输数据包*/
 	XMIT(dp);
 
 	return 0;

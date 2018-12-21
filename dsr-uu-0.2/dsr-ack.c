@@ -56,7 +56,7 @@ int NSCLASS dsr_ack_send(struct in_addr dst, unsigned short id)  /*send ack*/
 	len = DSR_OPT_HDR_LEN + /* DSR_SRT_OPT_LEN(srt) +  */ DSR_ACK_HDR_LEN;
 
 	dp = dsr_pkt_alloc(NULL);
-
+	/*目的=dst 源节点=自己*/
 	dp->dst = dst;
 	/* dp->srt = srt; */
 	dp->nxt_hop = dst;	//dsr_srt_next_hop(dp->srt, 0);
@@ -94,7 +94,7 @@ int NSCLASS dsr_ack_send(struct in_addr dst, unsigned short id)  /*send ack*/
 
 /* 	buf += DSR_SRT_OPT_LEN(dp->srt); */
 /* 	len -= DSR_SRT_OPT_LEN(dp->srt); */
-
+		
 	ack_opt = dsr_ack_opt_add(buf, len, dp->src, dp->dst, id);
 
 	if (!ack_opt) {
@@ -105,7 +105,7 @@ int NSCLASS dsr_ack_send(struct in_addr dst, unsigned short id)  /*send ack*/
 	DEBUG("Sending ACK to %s id=%u\n", print_ip(dst), id);
 
 	dp->flags |= PKT_XMIT_JITTER;
-
+	/*发送*/
 	XMIT(dp);
 
 	return 1;
@@ -214,11 +214,11 @@ int NSCLASS dsr_ack_req_send(struct in_addr neigh_addr, unsigned short id)
 	char *buf;
 
 	dp = dsr_pkt_alloc(NULL);
-
+	/*构造packet*/
 	dp->dst = neigh_addr;
 	dp->nxt_hop = neigh_addr;
 	dp->src = my_addr();
-
+	/*分配内存空间*/
 	buf = dsr_pkt_alloc_opts(dp, len);
 
 	if (!buf)
@@ -250,7 +250,7 @@ int NSCLASS dsr_ack_req_send(struct in_addr neigh_addr, unsigned short id)
 	}
 
 	DEBUG("Sending ACK REQ for %s id=%u\n", print_ip(neigh_addr), id);
-
+	/*发送数据包*/
 	XMIT(dp);
 
 	return 1;

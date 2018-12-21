@@ -434,9 +434,10 @@ static struct dsr_rreq_opt *dsr_rreq_opt_add(char *buf, unsigned int len,
 
 	return rreq_opt;
 }
-
+/*搜索目标叫做target*/
 int NSCLASS dsr_rreq_send(struct in_addr target, int ttl)
 {
+
 	struct dsr_pkt *dp;
 	char *buf;
 	int len = DSR_OPT_HDR_LEN + DSR_RREQ_HDR_LEN;
@@ -447,6 +448,7 @@ int NSCLASS dsr_rreq_send(struct in_addr target, int ttl)
 		DEBUG("Could not allocate DSR packet\n");
 		return -1;
 	}
+	/*目的节点=广播 下一跳=广播 源节点=自己 */
 	dp->dst.s_addr = DSR_BROADCAST;
 	dp->nxt_hop.s_addr = DSR_BROADCAST;
 	dp->src = my_addr();
@@ -473,7 +475,7 @@ int NSCLASS dsr_rreq_send(struct in_addr target, int ttl)
 
 	buf += DSR_OPT_HDR_LEN;
 	len -= DSR_OPT_HDR_LEN;
-
+	/*填入Target*/
 	dp->rreq_opt = dsr_rreq_opt_add(buf, len, target, ++rreq_seqno);
 
 	if (!dp->rreq_opt) {
@@ -487,7 +489,7 @@ int NSCLASS dsr_rreq_send(struct in_addr target, int ttl)
 #endif
 
 	dp->flags |= PKT_XMIT_JITTER;
-
+	/*发送*/
 	XMIT(dp);
 
 	return 0;
@@ -497,7 +499,7 @@ int NSCLASS dsr_rreq_send(struct in_addr target, int ttl)
 
 	return -1;
 }
-
+/*包转发*/
 int NSCLASS dsr_rreq_opt_recv(struct dsr_pkt *dp, struct dsr_rreq_opt *rreq_opt)
 {
 	struct in_addr myaddr;

@@ -59,7 +59,7 @@ int NSCLASS dsr_recv(struct dsr_pkt *dp)
 			//packet
 			//dsr_opt_remove(dp);
 			break;
-		case DSR_PKT_FORWARD:
+		case DSR_PKT_FORWARD://转发1
 
 #ifdef NS2
 			if (dp->nh.iph->ttl() < 1)
@@ -78,7 +78,7 @@ int NSCLASS dsr_recv(struct dsr_pkt *dp)
 				return 0;
 			}
 			break;
-		case DSR_PKT_FORWARD_RREQ:
+		case DSR_PKT_FORWARD_RREQ://转发2
 			XMIT(dp);
 			return 0;
 		case DSR_PKT_SEND_RREP:
