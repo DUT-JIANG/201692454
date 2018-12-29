@@ -246,7 +246,6 @@ int NSCLASS dsr_opt_recv(struct dsr_pkt *dp)
 		case DSR_OPT_RREQ:
 			if (dp->flags & PKT_PROMISC_RECV)
 				break;
-			
 			action |= dsr_rreq_opt_recv(dp, (struct dsr_rreq_opt *)dopt);
 			break;
 		case DSR_OPT_RREP:
