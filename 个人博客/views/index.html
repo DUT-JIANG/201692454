@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+<style id="webmakerstyle">
+.body{
+  height:100%;
+  width:100%;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin:auto;
+}
+.block{
+  height:200px;
+  color:black;
+}
+.container{
+  padding:auto;
+  border-style:solid;
+  border-width:1px;
+  background-color : white;
+  height : 110px;
+  width : 500px;
+}
+.sele{
+  height:25px;
+}
+</style>
+</head>
+<body>
+<html>
+  <head>
+    <title>DNS域名解析管理页面</title>
+  </head>
+  <body class = "m-auto " ng-app="App" ng-controller="Ctrl">
+    <div class = "block m-auto "></div>
+    
+    <div class = "container text-center">
+      <br>
+      <input ng-init = "name=''" class ="name" type = "text" ng-model = "name" placeholder="站点">
+      <select class = "sele" ng-init="selected = records[0]" ng-model = "selected" ng-options="x.record for x in records">
+      </select>
+      <input ng-init = "address=''"class ="address" type = "text" ng-model="address"placeholder="目标" >
+      <br><br>
+      <button ng-click=" send() ">
+        添加
+      </button>
+      <button>
+        进入管理控制台
+      </button>
+    </div>
+  </body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+<script>
+var app = angular.module('App', []);
+app.controller('Ctrl', function($scope,$http) {
+   $scope.records = [
+	    {record : "CNAME"},
+	    {record : "A"},
+	    {record : "NS"}
+	];
+  $scope.name="";
+  $scope.address="";
+  var res={};
+  $scope.$watch('name',function(){
+    res.name=$scope.name;
+  });
+  $scope.$watch('address',function(){
+    res.address=$scope.address;
+  });
+  $scope.$watch('selected',function(){
+    res.selected=$scope.selected;
+  });
+  $scope.send = function (){
+    $http.get('127.0.0.1:3000', res).then(function(response){
+      alert("success");
+    }, 
+                                     function(response){
+      alert("faild");
+    });
+  }
+});
+//# sourceURL=userscript.js
+</script>
+</body>
+</html>
